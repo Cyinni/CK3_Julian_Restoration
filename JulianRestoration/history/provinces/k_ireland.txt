@@ -1,0 +1,303 @@
+#k_ireland
+##d_meath ###################################
+###c_dublin
+28 = {	#DUBLIN
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	850.1.1 = {
+		culture = norse
+		religion = norse_pagan
+	}
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = { religion = druidism }	
+	1066.1.1 = { culture = norwegian }	
+	1172.1.1 = { culture = english }
+}
+29 = {	#WICKLOW
+	holding = none
+	988.1.1 = {
+		holding = city_holding
+	}
+}
+30 = {	#KILDARE
+	holding = church_holding
+}
+31 = {	#TIRM
+	holding = none
+}
+32 = {	#DROGHEDA
+	holding = none
+	910.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_athlone
+34 = {	#ATHLONE
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1185.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = druidism
+	}
+}
+33 = {	#BIRR
+	holding = church_holding
+}
+36 = {	#UISNEACH
+	holding = none
+}
+
+##d_ulster ###################################
+###c_ulster
+15 = {	#DOWNPATRICK
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1200.1.1 = {	#By the beginning of the 13th century, Insular Christianity was effectively fully integrated with Rome.
+		religion = druidism
+	}
+}
+13 = {	#SLEMISH
+	holding = none
+	1000.1.1 = {
+		holding = church_holding
+	}
+}
+14 = {	#CARRICKFERGUS
+	holding = none
+	1000.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_oriel
+18 = {	#DUNDALK
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1189.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = druidism
+	}
+}
+17 = {	#ARMAGH
+	holding = church_holding
+}
+19 = {	#ARDEE
+	holding = none
+	1000.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_ailech
+9 = {	#DONEGAL
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1200.1.1 = {	#By the beginning of the 13th century, Insular Christianity was effectively fully integrated with Rome.
+		religion = druidism
+	}
+}
+10 = {	#RAPHOE
+	holding = church_holding
+}
+11 = {	#FAHAN
+	holding = none
+	988.1.1 = {
+		holding = church_holding
+	}
+}
+12 = {	#DERRY
+	holding = none
+	988.1.1 = {
+		holding = city_holding
+	}
+}
+
+##d_connacht ###################################
+###c_connacht
+20 = {	#GALWAY
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1200.1.1 = {	#By the beginning of the 13th century, Insular Christianity was effectively fully integrated with Rome.
+		religion = druidism
+	}
+}
+21 = {	#CASTLEBAR
+	holding = none
+}
+22 = {	#SLIGO
+	holding = none
+	988.1.1 = {
+		holding = city_holding
+	}
+}
+23 = {	#ATHENRY
+	holding = none
+}
+
+###c_breifne
+24 = {	#DROMAHAIR
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1172.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = druidism
+	}
+}
+25 = {	#BELCOO
+	holding = none
+}
+26 = {	#LONGFORD
+	holding = none
+	988.1.1 = {
+		holding = city_holding
+	}
+}
+27 = {	#CAVAN
+	holding = none
+}
+
+##d_leinster ###################################
+###c_leinster
+37 = {	#WEXFORD
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1169.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = druidism
+	}
+}
+38 = {	#ENNISCORTHY
+	holding = none
+}
+39 = {	#FERNS
+	holding = church_holding
+}
+40 = {	#CARLOW
+	holding = church_holding
+}
+
+###c_ossory
+43 = {	#GOWRAN
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1177.1.1 = {	#Norman invasion brings Catholic dominance.
+		religion = druidism
+	}
+}
+41 = {	#KILKENNY
+	holding = church_holding
+}
+42 = {	#ATHY
+	holding = none
+	1150.1.1 = {
+		holding = city_holding
+	}
+}
+44 = {	#CARRICK
+	holding = none
+}
+
+##d_munster ###################################
+###c_thomond
+45 = {	#LIMERICK
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1200.1.1 = {	#By the beginning of the 13th century, Insular Christianity was effectively fully integrated with Rome.
+		religion = druidism
+	}
+}
+46 = {	#ENNIS
+	holding = none
+	1000.1.1 = {
+		holding = city_holding
+	}
+}
+47 = {	#NENAGH
+	holding = none
+}
+48 = {	#ROSCREA
+	holding = church_holding
+}
+
+###c_ormond
+49 = {	#WATERFORD
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1200.1.1 = {	#By the beginning of the 13th century, Insular Christianity was effectively fully integrated with Rome.
+		religion = druidism
+	}
+}
+50 = {	#EMLY
+	holding = church_holding
+}
+51 = {	#CLONMEL
+	holding = none
+	1050.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_desmond
+52 = {	#TRALEE
+	culture = irish
+	religion = druidism
+	holding = tribal_holding
+	988.1.1 = {
+		holding = castle_holding
+	}
+	1200.1.1 = {	#By the beginning of the 13th century, Insular Christianity was effectively fully integrated with Rome.
+		religion = druidism
+	}
+}
+53 = {	#CORK
+	holding = none
+	988.1.1 = {
+		holding = city_holding
+	}
+}
+54 = {	#KINSALE
+	holding = none
+}
+16 = {	#BALTIMORE
+	holding = none
+}
