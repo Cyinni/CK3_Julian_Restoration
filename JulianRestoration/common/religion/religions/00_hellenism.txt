@@ -31,6 +31,9 @@
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
+	#Special Doctrine for Hellenic Syncretism
+	doctrine = special_doctrine_is_hellenic_faith
+
 	traits = {
 		virtues = { generous just temperate }
 		sins = { greedy arbitrary gluttonous }
@@ -245,7 +248,7 @@
 			doctrine = special_doctrine_naked_priests
 
 			doctrine = tenet_adaptive
-			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_islamic_syncretism
 			doctrine = tenet_esotericism
 		}
 		

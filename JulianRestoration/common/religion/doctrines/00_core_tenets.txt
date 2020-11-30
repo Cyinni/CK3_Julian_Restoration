@@ -2055,6 +2055,7 @@
 					flag:tenet_unreformed_syncretism = { is_in_list = selected_doctrines }
 					flag:tenet_islamic_syncretism = { is_in_list = selected_doctrines }
 					flag:tenet_jewish_syncretism = { is_in_list = selected_doctrines }
+					flag:tenet_hellenic_syncretism = { is_in_list = selected_doctrines }
 				}
 			}
 		}

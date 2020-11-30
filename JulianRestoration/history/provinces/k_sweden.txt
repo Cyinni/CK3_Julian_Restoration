@@ -12,7 +12,7 @@
 		culture = swedish
 	}
 	1090.1.1 = {
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 342 = {		#UPPSALA
@@ -38,7 +38,7 @@
 		holding = castle_holding
 	}
 	1085.1.1 = {
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 355 = {		#OKLABO	aka Ockelbo
@@ -57,7 +57,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -93,7 +93,7 @@
 		holding = castle_holding
 	}
 	1090.1.1 = {
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 217 = {		#JOMALA
@@ -111,7 +111,7 @@
 		holding = castle_holding
 	}
 	1080.1.1 = {
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 347 = {		#ARBUGA	aka Arbugä / Arboga
@@ -141,7 +141,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -165,7 +165,7 @@
 		holding = castle_holding
 	}
 	1085.1.1 = {
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 352 = {		#MOLUNGR	aka Malung
@@ -196,7 +196,7 @@
 	}
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -229,7 +229,7 @@
 	}
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 319 = {		#FALKOPING
@@ -263,7 +263,7 @@
 	1066.1.1 = {
 		holding = castle_holding
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 316 = {		#SKARA
@@ -288,7 +288,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -303,7 +303,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -323,7 +323,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -352,7 +352,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = church_holding
 	}
 }
@@ -374,7 +374,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -398,7 +398,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -416,7 +416,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -441,7 +441,7 @@
 		holding = castle_holding
 	}
 	1123.1.1 = {
-		religion = catholic
+		religion = norse_pagan
 		#Around the time of the "crusade" against Småland
 	}
 }
@@ -469,7 +469,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -494,7 +494,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -513,7 +513,7 @@
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 		holding = castle_holding
 	}
 }
@@ -536,7 +536,7 @@
 		holding = castle_holding
 	}
 	1085.1.1 = {
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 357 = {		#BALDANAS aka Bollnäs
@@ -559,7 +559,7 @@
 		holding = castle_holding
 	}
 	1090.1.1 = {
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 362 = {		#HAFRA aka Haverö
@@ -581,7 +581,7 @@
 		culture = swedish
 	}
 	1090.1.1 = {
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 365 = {		#SIOBORADH aka Säbrå
@@ -608,7 +608,7 @@
 	}
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		religion = norse_pagan
 	}
 }
 370 = {		#GARNA aka Västergarn

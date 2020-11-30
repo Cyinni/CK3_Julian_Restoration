@@ -9,7 +9,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5034 = {	#Baia
@@ -40,7 +40,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5032 = {	#Targu Neamnt
@@ -62,7 +62,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5039 = {	#Harlau
@@ -78,7 +78,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5041 = {	#Tetina
@@ -98,7 +98,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5023 = {	#Ungheni
@@ -117,7 +117,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5020 = {	#Tuzara
@@ -133,7 +133,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5022 = {	#Balti
@@ -149,7 +149,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5025 = {	#Vaslui
@@ -171,7 +171,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5027 = {	#Tecuci
@@ -196,7 +196,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5030 = {	#Bacau
@@ -213,7 +213,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5016 = {	#Cahul
@@ -229,7 +229,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5011 = {	#Tighina
@@ -245,7 +245,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5013 = {	#Oblucita
@@ -267,7 +267,7 @@
 		holding = castle_holding
 	}
 	1000.1.1 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5018 = {	#Chisinau

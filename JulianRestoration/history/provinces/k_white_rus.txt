@@ -15,7 +15,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 		holding = castle_holding
 	}
 }
@@ -32,7 +32,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 		holding = castle_holding
 	}
 }
@@ -47,7 +47,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 		holding = castle_holding
 	}
 }
@@ -64,7 +64,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 		holding = castle_holding
 	}
 }
@@ -81,7 +81,7 @@
 	religion = slavic_pagan
 	#holding = castle_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5118 = {	#Baranovichi
@@ -94,7 +94,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 		holding = castle_holding
 	}
 }
@@ -121,7 +121,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5123 = {	#Lahoysk
@@ -152,7 +152,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 		holding = castle_holding
 	}
 }
@@ -173,7 +173,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5130 = {	#Drysa
@@ -192,7 +192,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5132 = {	#Vetrino
@@ -211,7 +211,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5135 = {	#Haradok
@@ -228,7 +228,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 		holding = castle_holding
 	}
 }
@@ -260,7 +260,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 		holding = castle_holding
 	}
 }
@@ -277,7 +277,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 		holding = castle_holding
 	}
 }
@@ -294,7 +294,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 	1050.1.1 = {
 		culture = russian
@@ -313,7 +313,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 		holding = castle_holding
 	}
 }

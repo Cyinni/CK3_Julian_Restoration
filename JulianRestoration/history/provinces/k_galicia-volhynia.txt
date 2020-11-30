@@ -9,7 +9,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5047 = {	#Lutsk
@@ -37,7 +37,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5052 = {	# Rivne
@@ -56,13 +56,13 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5054 = {	#Bielsk
 	holding = none
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 	1150.1.1 = {
 		holding = city_holding
@@ -84,7 +84,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5058 = {	#Kobryn
@@ -104,7 +104,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5060 = {	#Sambir
@@ -130,7 +130,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5064 = {	#Zvenyhorod
@@ -162,7 +162,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5068 = {	#Horodok
@@ -181,7 +181,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5071 = {	#Dubno
@@ -207,7 +207,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5074 = {	#Volin
@@ -237,7 +237,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5078 = {	#Liubachev
@@ -253,7 +253,7 @@
 		holding = castle_holding
 	}
 	989.9.15 = {
-		religion = orthodox
+		religion = slavic_pagan
 	}
 }
 5079 = {	#Yaroslav = b_yaroslav_VOL
