@@ -1,0 +1,79 @@
+﻿diplomacy_lifestyle = {
+
+	is_highlighted = {
+		has_trait = education_diplomacy		
+	}
+
+	xp_per_level = 1000
+	base_xp_gain = 25
+}
+
+martial_lifestyle = {
+
+	is_highlighted = {
+		has_trait = education_martial		
+	}
+
+	xp_per_level = 1000
+	base_xp_gain = 25
+}
+
+stewardship_lifestyle = {
+
+	is_highlighted = {
+		has_trait = education_stewardship		
+	}
+	
+	
+	xp_per_level = 1000
+	base_xp_gain = 25
+}
+
+intrigue_lifestyle = {
+
+	is_highlighted = {
+		has_trait = education_intrigue		
+	}
+	
+	
+	xp_per_level = 1000
+	base_xp_gain = 25
+}
+
+learning_lifestyle = {
+
+	is_highlighted = {
+		has_trait = education_learning		
+	}
+	
+	
+	xp_per_level = 1000
+	base_xp_gain = 25
+}
+
+witchcraft_lifestyle = {
+	
+	is_valid_showing_failures_only = { 
+		has_trait = mystic_1
+		OR has_trait = mystic_2
+		OR has_trait = mystic_3
+		OR has_trait = witch
+	}
+	
+	is_valid = { 
+		has_trait = mystic_1
+		OR has_trait = mystic_2
+		OR has_trait = mystic_3
+		OR has_trait = witch
+	}
+	
+	is_highlighted = {
+		has_trait = mystic_1
+		OR has_trait = mystic_2
+		OR has_trait = mystic_3
+		OR has_trait = witch
+	}
+	xp_per_level = 1000
+	base_xp_gain = 10
+	#Lower base XP gain is so that more experience comes from stories.
+}
