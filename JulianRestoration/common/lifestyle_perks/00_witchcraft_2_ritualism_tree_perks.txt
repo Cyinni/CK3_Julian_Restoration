@@ -1,67 +1,53 @@
 ﻿
-### STEWARDSHIP - DOMAIN PERKS
+### witchcraft - ritualism PERKS
 
 
-# Tax Man
-tax_man_perk = {
-	lifestyle = stewardship_lifestyle
-	tree = domain
+# hexcraft
+hexcraft_perk = {
+	lifestyle = witchcraft_lifestyle
+	tree = ritualism
 	position = { 0 0 }
-	icon = node_stewardship
+	icon = node_witchcraft
 	
-	auto_selection_weight = {
-		value = 11
-		if = {
-			limit = {
-				has_education_stewardship_trigger = yes
-			}
-			add = 1989
-		}
-		if = {
-			limit = {
-				has_focus = stewardship_domain_focus
-			}
-			multiply = 5
-		}
-		if = {
-			limit = {
-				can_start_new_lifestyle_tree_trigger = no
-				NOT = { has_perk = cutting_corners_perk }
-			}
-			multiply = 0
-		}
+	auto_selection_weight = {##Come back to this when I understand AI weights better.
+		#value = 11
+		#if = {
+		#	limit = {
+		#		has_education_witchcraft_trigger = yes
+		#	}
+		#	add = 1989
+		#}
+		#if = {
+		#	limit = {
+		#		has_focus = witchcraft_ritualism_focus
+		#	}
+		#	multiply = 5
+		#}
+		#if = {
+		#	limit = {
+		#		can_start_new_lifestyle_tree_trigger = no
+		#		NOT = { has_perk = cutting_corners_perk }
+		#	}
+		#	multiply = 0
+		#}
 	}
-	
-	name = {
-		first_valid = {
-			triggered_desc = {
-				trigger = { NOT = { exists = this } }
-				desc = tax_man_perk_male_name
-			}
-			triggered_desc = {
-				trigger = { is_female = yes }
-				desc = tax_man_perk_female_name
-			}
-			desc = tax_man_perk_male_name
-		}
-	}
-	
+		
 	effect = {
 		custom_description_no_bullet = {
-			text = tax_man_perk_effect
+			text = hexcraft_perk_effect
 		}
 	}
 }
 
 
-# Defensive Measures
-defensive_measures_perk = {
-	lifestyle = stewardship_lifestyle
-	tree = domain
+# Blessings of the Divine
+blessings_perk = {
+	lifestyle = witchcraft_lifestyle
+	tree = ritualism
 	position = { 0 1 }
-	icon = node_stewardship
+	icon = node_witchcraft
 	
-	parent = tax_man_perk
+	parent = hexcraft_perk
 	
 	character_modifier = {
 		garrison_size = 0.2
@@ -70,14 +56,14 @@ defensive_measures_perk = {
 }
 
 
-# Efficient Muster Rolls
-organized_muster_rolls_perk = {
-	lifestyle = stewardship_lifestyle
-	tree = domain
+# Ensorcell
+ensorcell_perk = {
+	lifestyle = witchcraft_lifestyle
+	tree = ritualism
 	position = { 0 2 }
-	icon = node_stewardship
+	icon = node_witchcraft
 	
-	parent = defensive_measures_perk
+	parent = blessings_perk
 	
 	character_modifier = {
 		levy_reinforcement_rate = 1
@@ -85,35 +71,87 @@ organized_muster_rolls_perk = {
 }
 
 
-# Cutting Corners
-cutting_corners_perk = {
-	lifestyle = stewardship_lifestyle
-	tree = domain
+
+#Promised Seed
+promised_seed_perk = {
+	lifestyle = witchcraft_lifestyle
+	tree = ritualism
 	position = { 2 0 }
-	icon = node_stewardship
+	icon = node_witchcraft
 	
-	auto_selection_weight = {
-		value = 10
-		if = {
-			limit = {
-				has_education_stewardship_trigger = yes
-			}
-			add = 1989
-		}
-		if = {
-			limit = {
-				has_focus = stewardship_domain_focus
-			}
-			multiply = 5
-		}
-		if = {
-			limit = {
-				can_start_new_lifestyle_tree_trigger = no
-				NOT = { has_perk = tax_man_perk }
-			}
-			multiply = 0
-		}
+	auto_selection_weight = {##Come back to this when I understand AI Weights
+		#value = 10
+		#if = {
+		#	limit = {
+		#		has_education_witchcraft_trigger = yes
+		#	}
+		#	add = 1989
+		#}
+		#if = {
+		#	limit = {
+		#		has_focus = witchcraft_ritualism_focus
+		#	}
+		#	multiply = 5
+		#}
+		#if = {
+		#	limit = {
+		#		can_start_new_lifestyle_tree_trigger = no
+		#		NOT = { has_perk = tax_man_perk }
+		#	}
+		#	multiply = 0
+		#}
 	}
+	
+	##Rip off the pregnancy-safety trait, but also enable increase-fertility scheme
+	character_modifier = {
+		build_speed = -0.3
+		holding_build_speed = -0.3
+	}
+}
+
+
+# Wither the Womb
+wither_womb_perk = {
+	lifestyle = witchcraft_lifestyle
+	tree = ritualism
+	position = { 2 1 }
+	icon = node_witchcraft
+	
+	parent = promised_seed_perk
+	
+	##Enable decrease-fertility / abort schemes
+	character_modifier = {
+		character_capital_county_monthly_development_growth_add = 0.3
+	}
+}
+
+
+# Stolen Seed
+stolen_seed_perk = {
+	lifestyle = witchcraft_lifestyle
+	tree = ritualism
+	position = { 2 2 }
+	icon = node_witchcraft
+	
+	parent = wither_womb_perk
+		
+	##Check out seduction focus for increase attraction, 
+	##but enable Stolen Seed schemes based on gender.
+	character_modifier = {
+		county_opinion_add = 50
+	}
+}
+
+
+# Cutting Corners
+god_marked_perk = {
+	lifestyle = witchcraft_lifestyle
+	tree = ritualism
+	position = { 1 3 }
+	icon = node_witchcraft
+	
+	parent = ensorcell_perk
+	parent = stolen_seed_perk
 	
 	character_modifier = {
 		holding_build_gold_cost = -0.05
@@ -126,78 +164,31 @@ cutting_corners_perk = {
 }
 
 
-# Professional Workforce
-professional_workforce_perk = {
-	lifestyle = stewardship_lifestyle
-	tree = domain
-	position = { 2 1 }
-	icon = node_stewardship
-	
-	parent = cutting_corners_perk
-	
-	character_modifier = {
-		build_speed = -0.3
-		holding_build_speed = -0.3
-	}
-}
-
-
-# Centralization
-centralization_perk = {
-	lifestyle = stewardship_lifestyle
-	tree = domain
-	position = { 2 2 }
-	icon = node_stewardship
-	
-	parent = professional_workforce_perk
-	
-	character_modifier = {
-		character_capital_county_monthly_development_growth_add = 0.3
-	}
-}
-
-
-# Popular Figurehead
-popular_figurehead_perk = {
-	lifestyle = stewardship_lifestyle
-	tree = domain
-	position = { 1 3 }
-	icon = node_stewardship
-	
-	parent = organized_muster_rolls_perk
-	parent = centralization_perk
-	
-	character_modifier = {
-		county_opinion_add = 50
-	}
-}
-
-
-# Divided Attention
-divided_attention_perk = {
-	lifestyle = stewardship_lifestyle
-	tree = domain
+#Spread the Craft
+spread_craft_perk = {
+	lifestyle = witchcraft_lifestyle
+	tree = ritualism
 	position = { 1 4 }
-	icon = node_stewardship
+	icon = node_witchcraft
 	
-	parent = popular_figurehead_perk
+	parent = god_marked_perk
 	
 	character_modifier = {
-		domain_limit = 2
+		ritualism_limit = 2
 	}
 }
 
 
-# Architect
-architect_perk = {
-	lifestyle = stewardship_lifestyle
-	tree = domain
+# Ritualist
+ritualist_perk = {
+	lifestyle = witchcraft_lifestyle
+	tree = ritualism
 	position = { 1 5 }
-	icon = trait_architect
+	icon = core_tenet_festivities
 	
-	parent = divided_attention_perk
+	parent = spread_craft_perk
 	
 	effect = {
-		add_trait_force_tooltip = architect
+		add_trait_force_tooltip = ritualist
 	}
 }
