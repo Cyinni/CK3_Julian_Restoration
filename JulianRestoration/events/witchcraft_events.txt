@@ -1,0 +1,336 @@
+﻿################
+# WITCH EVENTS #
+################
+
+namespace = witchcraft
+
+
+#witchcraft.4001-4999 - Witch ongoing events
+#witchcraft.8000 - reincarnation
+
+########################
+# WITCH ONGOING EVENTS #
+########################
+
+### PERSONAL WITCH RITUAL ###
+##Updated to include Mystics
+scripted_effect witchcraft_4010_option_effect = {
+	random_list = {
+		#DIPLOMACY
+		10 = {
+			trigger = {
+				NOR = {
+					exists = scope:confident_diplomat
+					has_character_modifier = confident_diplomat
+				}
+			}
+			modifier = {
+				has_lifestyle = diplomacy_lifestyle
+				add = 30
+			}
+			modifier = {
+				add = {	
+					value = extremely_high_skill_rating
+					subtract = diplomacy
+					multiply = 2
+				}
+			}
+			save_scope_value_as = {
+				name = confident_diplomat
+				value = yes
+			}
+		}
+
+		#MARTIAL
+		10 = {
+			trigger = {
+				NOR = {
+					exists = scope:confident_strategist
+					has_character_modifier = confident_strategist
+				}
+			}
+			modifier = {
+				has_lifestyle = martial_lifestyle
+				add = 30
+			}
+			modifier = {
+				add = {	
+					value = extremely_high_skill_rating
+					subtract = martial
+					multiply = 2
+				}
+			}
+			save_scope_value_as = {
+				name = confident_strategist
+				value = yes
+			}
+		}
+
+		#STEWARDSHIP
+		10 = {
+			trigger = {
+				NOR = {
+					exists = scope:confident_organizer
+					has_character_modifier = confident_organizer
+				}
+			}
+			modifier = {
+				has_lifestyle = stewardship_lifestyle
+				add = 30
+			}
+			modifier = {
+				add = {	
+					value = extremely_high_skill_rating
+					subtract = stewardship
+					multiply = 2
+				}
+			}
+			save_scope_value_as = {
+				name = confident_organizer
+				value = yes
+			}
+		}
+
+		#INTRIGUE
+		10 = {
+			trigger = {
+				NOR = {
+					exists = scope:confident_schemer
+					has_character_modifier = confident_schemer
+				}
+			}
+			modifier = {
+				has_lifestyle = intrigue_lifestyle
+				add = 30
+			}
+			modifier = {
+				add = {	
+					value = extremely_high_skill_rating
+					subtract = intrigue
+					multiply = 2
+				}
+			}
+			save_scope_value_as = {
+				name = confident_schemer
+				value = yes
+			}
+		}
+
+		#LEARNING
+		10 = {
+			trigger = {
+				NOR = {
+					exists = scope:confident_scholar
+					has_character_modifier = confident_scholar
+				}
+			}
+			modifier = {
+				has_lifestyle = learning_lifestyle
+				add = 30
+			}
+			modifier = {
+				add = {	
+					value = extremely_high_skill_rating
+					subtract = learning
+					multiply = 2
+				}
+			}
+			save_scope_value_as = {
+				name = confident_scholar
+				value = yes
+			}
+		}
+
+		#PROWESS
+		10 = {
+			trigger = {
+				NOR = {
+					exists = scope:confident_duelist
+					has_character_modifier = confident_duelist
+				}
+			}
+			modifier = {
+				has_focus = martial_chivalry_focus
+				add = 30
+			}
+			modifier = {
+				add = {	
+					value = extremely_high_skill_rating
+					subtract = prowess
+					multiply = 2
+				}
+			}
+			save_scope_value_as = {
+				name = confident_duelist
+				value = yes
+			}
+		}
+
+		#ATTRACTION
+		20 = {
+			trigger = {
+				NOR = {
+					exists = scope:alluring_confidence
+					has_character_modifier = alluring_confidence
+				}
+			}
+			modifier = {
+				OR = {
+					has_trait = lustful
+					ai_sociability >= low_positive_ai_value
+					has_focus = intrigue_temptation_focus
+				}
+				add = 50
+			}
+			save_scope_value_as = {
+				name = alluring_confidence
+				value = yes
+			}
+		}
+
+		#RELAXATION
+		20 = {
+			trigger = {
+				stress >= low_stress
+				NOT = { exists = scope:stress }
+			}
+			modifier = {
+				add = {
+					value = stress
+					divide = extremely_high_stress
+					multiply = 80
+				}
+			}
+			save_scope_value_as = {
+				name = stress
+				value = yes
+			}
+		}
+	}
+}
+
+
+witchcraft.4010 = { #original code by Mathilda Bjarnehed
+	#Adds the witch personal rite to non-witch characters who have taken the witchcraft lifestyle
+	type = character_event
+	title = witchcraft.4010.t
+	desc = witch.4010.desc
+	theme = witchcraft
+	override_background = {
+		event_background = wilderness
+	}
+	left_portrait = root
+	
+	trigger = {
+		NOT = { has_character_flag = event_cooldown_witchcraft_4010 }
+		has_lifestyle = witchcraft_lifestyle
+		OR = {
+			has_trait = mystic_01
+			has_trait = mystic_02
+			has_trait = mystic_03
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = event_cooldown_witchcraft_4010
+			days = 1825
+		}
+
+		#3 options
+		witchcraft_4010_option_effect = yes
+		witchcraft_4010_option_effect = yes
+		witchcraft_4010_option_effect = yes	
+	}
+
+	#Ask for love
+	option = {
+		trigger = { exists = scope:alluring_confidence }
+		name = witch.4010.a
+
+		add_character_modifier = {
+			modifier = alluring_confidence
+			years = 10
+		}
+	}
+
+	#Ask for diplomacy
+	option = {
+		trigger = { exists = scope:confident_diplomat }
+		name = witch.4010.b
+
+		add_character_modifier = {
+			modifier = confident_diplomat
+			years = 10
+		}
+	}
+
+	#Ask for martial
+	option = {
+		trigger = { exists = scope:confident_strategist }
+		name = witch.4010.c
+
+		add_character_modifier = {
+			modifier = confident_strategist
+			years = 10
+		}
+	}
+
+	#Ask for stewardship
+	option = {
+		trigger = { exists = scope:confident_organizer }
+		name = witch.4010.d
+
+		add_character_modifier = {
+			modifier = confident_organizer
+			years = 10
+		}
+	}
+
+	#Ask for intrigue
+	option = {
+		trigger = { exists = scope:confident_schemer }
+		name = witch.4010.e
+
+		add_character_modifier = {
+			modifier = confident_schemer
+			years = 10
+		}
+	}
+
+	#Ask for learning
+	option = {
+		trigger = { exists = scope:confident_scholar }
+		name = witch.4010.f
+
+		add_character_modifier = {
+			modifier = confident_scholar
+			years = 10
+		}
+	}
+
+	#Ask for prowess
+	option = {
+		trigger = { exists = scope:confident_duelist }
+		name = witch.4010.g
+
+		add_character_modifier = {
+			modifier = confident_duelist
+			years = 10
+		}
+	}
+	
+	#Ask for relaxation
+	option = {
+		trigger = { exists = scope:stress }
+		name = witch.4010.h
+		
+		add_stress = monumental_stress_loss
+	}
+}
+
+
