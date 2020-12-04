@@ -1,0 +1,45 @@
+﻿l_english:
+ 
+#PERSONAL WITCH RITUAL
+ witchcraft.4010.t:0 "[ROOT.Char.GetFaith.WitchGodHerHis|U] Gifts Are Plentiful"
+ witchcraft.4010.desc:0 "I pour my gifts onto the soil; herbs, milk and honey. With my eyes closed and smoke stinging in my nostrils, I raise my arms towards the moon.\n\n"[ROOT.Char.GetFaith.WitchGodMistressMaster|U]! Knower of all truths, [ROOT.Char.GetFaith.WitchGodMotherFather] of all power! Please accept my humble gifts, and offer me your guidance in turn!"\n\nI ask [ROOT.Char.WitchGodName] for..."
+ witchcraft.4010.a:0 "Luck in the art of love."
+ witchcraft.4010.b:0 "Charm and tact."
+ witchcraft.4010.c:0 "A strategist's mind."
+ witchcraft.4010.d:0 "A mind for coin and order."
+ witchcraft.4010.e:0 "The aid of shadows."
+ witchcraft.4010.f:0 "Wisdom and wit."
+ witchcraft.4010.g:0 "Luck with the blade."
+ witchcraft.4010.h:0 "Peace of mind."
+
+# Witch friends: prayer, by Mathilda Bjarnehed
+ witchcraft.4020.t:0 "Taking or Giving"
+ witchcraft.4020.two_witches.desc:0 "[prayer_witch_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and [prayer_witch_2.Custom2('MyCharacterIntroduction', ROOT.Char)] have joined me for"
+ witchcraft.4020.one_witch.desc:0 "[prayer_witch_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has joined me for"
+ witchcraft.4020.full_moon.desc:0 "a full moon rite"
+ witchcraft.4020.new_moon.desc:0 "a new moon rite"
+ witchcraft.4020.equinox.desc:0 "an equinox ritual"
+ witchcraft.4020.solstice.desc:0 "an equinox ritual"
+ witchcraft.4020.end.desc:0 "in honor of [ROOT.Char.GetFaith.WitchGodName]. As the host, it is my duty to lead us in prayer."
+ witchcraft.4020.a:0 "Wise [ROOT.Char.GetFaith.WitchGodMistressMaster|U], bring [prayer_witch_1.GetFirstNameNoTooltip] peace and clarity!"
+ witchcraft.4020.b:0 "Bestow your blessings onto [prayer_witch_2.GetFirstNameNoTooltip]!"
+ witchcraft.4020.c:0 "[ROOT.Char.GetFaith.WitchGodMotherFather|U] of secrets, lend me your power!"
+
+ witchcraft.4030.t:0 "Leather-Bound Secrets"
+ witchcraft.4030.no_friend.desc:1 "My contacts have sent me a tome written in some strange code, its leather covers decorated with my [ROOT.Char.GetFaith.WitchGodMistressMaster|U]'s symbols.\n\nI have only been able to decipher the first few pages so far, but they are deeply fascinating."
+ witchcraft.4030.friend.desc:1 "My good [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('witch_friend'))] [witch_friend.GetTitledFirstName] has brought me a tome written in some strange code, its leather covers decorated with our [ROOT.Char.GetFaith.WitchGodMistressMaster|U]'s symbols.\n\n[witch_friend.GetSheHe|U] has only been able to decipher the first few pages so far, but they are deeply fascinating."
+
+ witchcraft.4030.friend.a:0 "Together, we will unlock its secrets."
+ witchcraft.4030.no_friend.a:0 "I will unlock its secrets, no matter how long it takes!"
+ witchcraft.4030.b:0 "I know a fellow believer who would pay good gold for this."
+ witchcraft.4030.c:0 "Even [convince_target_1.GetTitledFirstNameNoTooltip] will be enticed by these secrets."
+ witchcraft.4030.c.success:0 "[convince_target_1.GetShortUIName|U] is enthralled by the tome"
+ witchcraft.4030.c.failure:0 "[convince_target_1.GetShortUIName|U] burns the tome"
+ witchcraft.4030.d:0 "[convince_target_2.GetTitledFirstNameNoTooltip] will find this #EMP very#! interesting."
+
+ witchcraft.4031.start.desc:0 "I have an unobstructed view of the tome, which I left on [convince_target.GetTitledFirstNamePossessive] desk, from the secret passage behind [convince_target.GetHerHis] chambers. [convince_target.GetHerHis|U] eyes are drawn to it as soon as [convince_target.GetSheHe] steps over the threshold, almost as if the book possesses its own, strange magic.\n\n"
+ witchcraft.4031.end.desc:0 "When [convince_target.GetFirstNameNoTooltip] has finished reading the translated pages, [convince_target.GetSheHe] begins to pace back and forth. In the end, the tome's draw seems impossible to resist; [convince_target.GetSheHe] rushes back to the desk and grabs a quill."
+ witchcraft.4031.a:0 "That's right, my friend. Delve deeper, and deeper..."
+
+ witchcraft.4032.end.desc:0 "[convince_target.GetFirstNameNoTooltip] does not even open the book. An audible gasp escapes [convince_target.GetHerHis] lips when [convince_target.GetSheHe] sees the strange symbols, and [convince_target.GetSheHe] throws it in the fire."
+ witchcraft.4032.a:0 "#EMP No!#! May [ROOT.Char.GetFaith.HighGodName] curse this spineless fool!"

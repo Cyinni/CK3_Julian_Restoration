@@ -1,0 +1,18 @@
+﻿l_english:
+
+ trait_augur:0 "Augur"
+ trait_augur_desc:0 "Past and future open to their eyes, or so they say."
+ trait_augur_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s pronouncements are feared - whether wrong or right, it's best to listen carefully."
+ 
+ trait_ritualist:0 "Ritualist"
+ trait_ritualist_desc:0 "With the rituals complete, surely the gods are watching, for all god-fearing men and women surely are."
+ trait_ritualist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered strange rites and claims power over life, death, and birth."
+ 
+ trait_alchemist:0 "Alchemist"
+ trait_alchemist_desc:0 "Master of mysterious substances and arcane transformations, the alchemist is blessed by magics, whatever they say."
+ trait_alchemist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a dedicated student of alchemy, master of strange and useful substances."
+
+ trait_proclaimed_reincarnation:0 "Proclaimed Reincarnation"
+ trait_proclaimed_reincarnation_desc:0 "It was proclaimed by an augur that [ROOT.GetCharacter.GetFirstNameNoTooltip] is a reincarnation of their ancestor."
+ trait_proclaimed_reincarnation_desc_ancestor:0 "[ROOT.Char.GetSheHe|U] was proclaimed by an augur to be the reincarnation of [ROOT.Char.GetHerHis] [ROOT.Char.Custom2('RelationToMe', ROOT.Var('reincarnation_of').Char)], [ROOT.Var('reincarnation_of').Char.GetTitledFirstName]."
+ 

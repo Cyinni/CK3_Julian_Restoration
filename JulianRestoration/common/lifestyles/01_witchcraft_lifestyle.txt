@@ -1,0 +1,35 @@
+﻿witchcraft_lifestyle = {
+	
+	is_valid_showing_failures_only = { 
+		OR ={
+		has_trait = mystic_1
+		has_trait = mystic_2
+		has_trait = mystic_3
+		has_trait = witch
+		}
+	}
+	
+	is_valid = { 
+		OR ={
+		has_trait = mystic_1
+		has_trait = mystic_2
+		has_trait = mystic_3
+		has_trait = witch
+		}
+	}
+	
+	is_highlighted = {
+		OR ={
+		has_trait = mystic_1
+		has_trait = mystic_2
+		has_trait = mystic_3
+		has_trait = witch
+		}
+	}
+	
+	xp_per_level = 1000
+	
+	base_xp_gain = 25
+	
+	
+}

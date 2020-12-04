@@ -9,7 +9,7 @@
 
 ################### LIFESTYLE ##################
 alchemist = {
-	index = 40035
+	index = 4035
 	lifestyle = yes
 	
 	prowess = 2
@@ -34,7 +34,7 @@ alchemist = {
 }
 
 ritualist = {
-	index = 40036
+	index = 4036
 	lifestyle = yes
 
 	diplomacy = 2
@@ -58,7 +58,7 @@ ritualist = {
 }
 
 augur = {
-	index = 40037
+	index = 4037
 	lifestyle = yes
 
 	intrigue = 3
@@ -83,7 +83,7 @@ augur = {
 
 # Character is seen as a reincarnation of another character.
 proclaimed_reincarnation = {
-	index = 40192
+	index = 4192
 	fame = yes
 
 	same_faith_opinion = 5

@@ -1,0 +1,36 @@
+﻿l_english:
+
+##Witchcraft: Augury
+ haruspicy_perk_name:0               "Haruspicy"
+ bone_reading_perk_name:0            "Read the Bones"
+ dark_omens_perk_name:0              "Dark Omens"
+ auspices_perk_name:0                "Auspices"
+ auspicious_child_perk_name:0        "Auspicious Child"
+ stormcalling_perk_name:0            "Stormcalling"
+ declare_reincarnation_perk_name:0   "Proclaim Reincarnation"
+ accursed_clan_perk_name:0           "Accursed Clan"
+ augur_perk_name_male:0 "Seer"
+ augur_perk_name_female: "Oracle"
+ augur_perk_name:0 "Augur"
+ 
+##Witchcraft: Ritualism
+hexcraft_perk_name:0         "Hexcraft"
+blessing_perk_name:0         "Blessings of the Divine"
+promised_child_perk_name:0   "Promises of the Seed"
+wither_womb_perk_name:0      "Wither the Womb"
+ensorcell_perk_name:0        "Ensorcell"
+stolen_seed_perk_name:0      "Stolen Seed"
+god_marked_perk_name:0       "Marked by the Gods"
+spread_craft_perk_name:0     "Spread the Craft"
+ritualist_perk_name:0 "Ritualist"
+
+##Witchcraft: Alchemy
+foul_vapors_perk_name:0      "Foul Vapors"
+lab_safety_perk_name:0       "Laboratory Safety"
+distillation_perk_name:0     "Distillation"
+dosages_perk_name:0          "Precise Dosages"
+exotic_powders_perk_name:0   "Exotic Powders"
+acids_perk_name:0            "Acids"
+curatives_perk_name:0        "Curatives"
+explosives_perk_name:0       "Explosives"
+alchemist_perk_name:0 "Alchemist"

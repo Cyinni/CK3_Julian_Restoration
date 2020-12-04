@@ -7,7 +7,7 @@ foul_vapors_perk = {
 	lifestyle = witchcraft_lifestyle
 	tree = alchemy
 	position = { 0 0 }
-	icon = node_witchcraft
+	icon = node_scholar
 	
 	auto_selection_weight = {##Check back on this when I understand AI weights.
 		#value = 11
@@ -29,7 +29,7 @@ foul_vapors_perk = {
 		#	}
 		#	multiply = 0
 		}
-	}
+	
 	
 	character_modifier = {
 		dread_gain_mult = 0.15
@@ -49,7 +49,7 @@ lab_safety_perk = {
 	lifestyle = witchcraft_lifestyle
 	tree = alchemy
 	position = { 0 1 }
-	icon = node_witchcraft
+	icon = node_scholar
 	
 	parent = foul_vapors_perk
 	
@@ -66,7 +66,7 @@ distillation_perk = {
 	lifestyle = witchcraft_lifestyle
 	tree = alchemy
 	position = { 1 0 }
-	icon = node_witchcraft
+	icon = node_scholar
 	
 	character_modifier = {
 		direct_vassal_opinion = 10
@@ -80,7 +80,7 @@ dosages_perk = {
 	lifestyle = witchcraft_lifestyle
 	tree = alchemy
 	position = { 1 1 }
-	icon = node_witchcraft
+	icon = node_scholar
 	
 	parent = distillation_perk
 	
@@ -95,7 +95,7 @@ exotic_powders_perk = {
 	lifestyle = witchcraft_lifestyle
 	tree = alchemy
 	position = { 2 0 }
-	icon = node_witchcraft
+	icon = node_scholar
 	
 	character_modifier = {
 		vassal_levy_contribution_mult = 0.2
@@ -108,7 +108,7 @@ acids_perk = {
 	lifestyle = witchcraft_lifestyle
 	tree = alchemy
 	position = { 2 1 }
-	icon = node_witchcraft
+	icon = node_scholar
 	
 	parent = exotic_powders_perk
 	
@@ -123,7 +123,7 @@ curatives_perk = {
 	lifestyle = witchcraft_lifestyle
 	tree = alchemy
 	position = { 1.5 2 }
-	icon = node_witchcraft
+	icon = node_scholar
 	
 	#check out whole of body?
 	parent = lab_safety_perk
@@ -142,7 +142,7 @@ explosives_perk = {
 	lifestyle = witchcraft_lifestyle
 	tree = alchemy
 	position = { 2.5 2 }
-	icon = node_witchcraft
+	icon = node_scholar
 	
 	parent = dosages_perk
 	parent = acids_perk

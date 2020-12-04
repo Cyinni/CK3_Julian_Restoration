@@ -498,7 +498,7 @@ holy_site_great_mosque_of_cordoba_01 = {
 					religion = religion:islam_religion
 				}
 				scope:holder = {
-					religion = religion:norse_pagan_religion
+					religion = religion:germanic_religion
 				}
 				custom_description = {
 					text = holy_site_building_trigger

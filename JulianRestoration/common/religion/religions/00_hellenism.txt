@@ -194,6 +194,25 @@
 	}
 
 	faiths = {
+		
+		hellenic_pagan = {
+			color = { 0.6 0.1 0.1 }
+			icon = hellenic
+			reformed_icon = hellenic_reformed
+
+			holy_site = rome
+			holy_site = athens
+			holy_site = sparta
+			holy_site = alexandria
+			holy_site = carthage
+
+			doctrine = unreformed_faith_doctrine
+
+			doctrine = tenet_astrology
+			doctrine = tenet_communal_identity
+			doctrine = tenet_esotericism
+		}
+		
 		roman_pagan = {
 			color = { 0.7 0.1 0.3 }
 			icon = hellenic
@@ -211,144 +230,6 @@
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_pursuit_of_power
 			doctrine = tenet_esotericism
-			
-			localization = {
-				#High God Name
-				HighGodName = roman_pagan_high_god_name
-				HighGodNamePossessive = roman_pagan_high_god_name_possessive
-				HighGodNameSheHe = CHARACTER_SHEHE_HE
-				HighGodHerselfHimself = CHARACTER_HIMSELF
-				HighGodHerHis = CHARACTER_HERHIS_HIS
-				HighGodNameAlternate = roman_pagan_high_god_name_alternate
-				HighGodNameAlternatePossessive = roman_pagan_high_god_name_alternate_possessive
-
-				#Creator
-				CreatorName = roman_pagan_creator_god_name
-				CreatorNamePossessive = roman_pagan_creator_god_name_possessive
-				CreatorSheHe = CHARACTER_SHEHE_SHE
-				CreatorHerHis = CHARACTER_HERHIS_HER
-				CreatorHerHim = CHARACTER_HERHIM_HER
-
-				#HealthGod
-				HealthGodName = roman_pagan_health_god_name
-				HealthGodNamePossessive = roman_pagan_health_god_name_possessive
-				HealthGodSheHe = CHARACTER_SHEHE_HE
-				HealthGodHerHis = CHARACTER_HERHIS_HIS
-				HealthGodHerHim = CHARACTER_HERHIM_HIM
-				
-				#FertilityGod
-				FertilityGodName = roman_pagan_fertility_god_name
-				FertilityGodNamePossessive = roman_pagan_fertility_god_name_possessive
-				FertilityGodSheHe = CHARACTER_SHEHE_SHE
-				FertilityGodHerHis = CHARACTER_HERHIS_HER
-				FertilityGodHerHim = CHARACTER_HERHIM_HER
-
-				#WealthGod
-				WealthGodName = roman_pagan_wealth_god_name
-				WealthGodNamePossessive = roman_pagan_wealth_god_name_possessive
-				WealthGodSheHe = CHARACTER_SHEHE_HE
-				WealthGodHerHis = CHARACTER_HERHIS_HIS
-				WealthGodHerHim = CHARACTER_HERHIM_HIM
-
-				#HouseholdGod
-				HouseholdGodName = roman_pagan_household_god_name
-				HouseholdGodNamePossessive = roman_pagan_household_god_name_possessive
-				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-				HouseholdGodHerHis = CHARACTER_HERHIS_HER
-				HouseholdGodHerHim = CHARACTER_HERHIM_HER
-
-				#FateGod
-				FateGodName = roman_pagan_fate_god_name
-				FateGodNamePossessive = roman_pagan_fate_god_name_possessive
-				FateGodSheHe = CHARACTER_SHEHE_THEY
-				FateGodHerHis = CHARACTER_HERHIS_THEIR
-				FateGodHerHim = CHARACTER_HERHIM_THEM
-
-				#KnowledgeGod
-				KnowledgeGodName = roman_pagan_knowledge_god_name
-				KnowledgeGodNamePossessive = roman_pagan_knowledge_god_name_possessive
-				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
-				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
-				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
-
-				#WarGod
-				WarGodName = roman_pagan_war_god_name
-				WarGodNamePossessive = roman_pagan_war_god_name_possessive
-				WarGodSheHe = CHARACTER_SHEHE_HE
-				WarGodHerHis = CHARACTER_HERHIS_HIS
-				WarGodHerHim = CHARACTER_HERHIM_HIM
-
-				#TricksterGod
-				TricksterGodName = roman_pagan_trickster_god_name
-				TricksterGodNamePossessive = roman_pagan_trickster_god_name_possessive
-				TricksterGodSheHe = CHARACTER_SHEHE_HE
-				TricksterGodHerHis = CHARACTER_HERHIS_HIS
-				TricksterGodHerHim = CHARACTER_HERHIM_HIM
-
-				#NightGod
-				NightGodName = roman_pagan_night_god_name
-				NightGodNamePossessive = roman_pagan_night_god_name_possessive
-				NightGodSheHe = CHARACTER_SHEHE_SHE
-				NightGodHerHis = CHARACTER_HERHIS_HER
-				NightGodHerHim = CHARACTER_HERHIM_HER
-
-				#WaterGod
-				WaterGodName = roman_pagan_water_god_name
-				WaterGodNamePossessive = roman_pagan_water_god_name_possessive
-				WaterGodSheHe = CHARACTER_SHEHE_HE
-				WaterGodHerHis = CHARACTER_HERHIS_HIS
-				WaterGodHerHim = CHARACTER_HERHIM_HIM
-
-
-
-				PantheonTerm = religion_the_gods
-				PantheonTermHasHave = pantheon_term_have
-				GoodGodNames = { roman_pagan_good_god_poseidon roman_pagan_good_god_athena roman_pagan_good_god_ares roman_pagan_good_god_hera roman_pagan_good_god_apollo roman_pagan_good_god_artemis roman_pagan_good_god_hermes roman_pagan_good_god_aphrodite }
-				DevilName = roman_pagan_devil_name
-				DevilNamePossessive = roman_pagan_devil_name_possessive
-				DevilSheHe = CHARACTER_SHEHE_HE
-				DevilHerHis = CHARACTER_HERHIS_HIS
-				DevilHerselfHimself = CHARACTER_HIMSELF
-				EvilGodNames = { roman_pagan_evil_god_menoetius roman_pagan_evil_god_erinyes }
-				HouseOfWorship = paganism_house_of_worship
-				HouseOfWorshipPlural = paganism_house_of_worship_plural
-				ReligiousSymbol = roman_pagan_religious_symbol
-				ReligiousText = roman_pagan_religious_text
-				ReligiousHeadName = roman_pagan_religious_head_title
-				ReligiousHeadTitleName = dualism_religious_head_title_name
-				DevoteeMale = roman_pagan_religion_adherent
-				DevoteeMalePlural = roman_pagan_religion_adherent_plural
-				DevoteeFemale = roman_pagan_religion_adherent
-				DevoteeFemalePlural = roman_pagan_religion_adherent_plural
-				DevoteeNeuter = roman_pagan_religion_adherent
-				DevoteeNeuterPlural = roman_pagan_religion_adherent_plural
-				PriestMale = roman_pagan_priest_male
-				PriestMalePlural = roman_pagan_priest_male_plural
-				PriestFemale = roman_pagan_priest_female
-				PriestFemalePlural = roman_pagan_priest_female_plural
-				PriestNeuter = roman_pagan_priest_male
-				PriestNeuterPlural = roman_pagan_priest_male_plural
-				AltPriestTermPlural = christianity_priest_alternate_plural
-				BishopMale = roman_pagan_bishop_male
-				BishopMalePlural = roman_pagan_bishop_male_plural
-				BishopFemale = roman_pagan_priest_female
-				BishopFemalePlural = roman_pagan_priest_female_plural
-				BishopNeuter = roman_pagan_priest_male
-				BishopNeuterPlural = roman_pagan_priest_male_plural
-				DivineRealm = roman_pagan_divine_realm
-				PositiveAfterLife = roman_pagan_death_deity_name
-				NegativeAfterLife = roman_pagan_death_deity_name
-				DeathDeityName = roman_pagan_death_deity_name
-				DeathDeityNamePossessive = roman_pagan_death_deity_name_possessive
-				DeathDeitySheHe = CHARACTER_SHEHE_HE
-				DeathDeityHerHis = CHARACTER_HERHIS_HIS
-				WitchGodName = roman_pagan_witchgodname_hekate
-				WitchGodHerHis = CHARACTER_HERHIS_HER
-				WitchGodSheHe = CHARACTER_SHEHE_HE
-				WitchGodHerHim = CHARACTER_HERHIM_HER
-				WitchGodMistressMaster = mistress
-				WitchGodMotherFather = mother
-			}
 			
 			
 		}
@@ -516,7 +397,7 @@
 			reformed_icon = hellenic_reformed
 
 			holy_site = sinai
-			holy_site = damascus
+			holy_site = rome
 			holy_site = baghdad
 			holy_site = alexandria
 			holy_site = carthage
@@ -525,6 +406,8 @@
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_pluralism_pluralistic
 			#doctrine = special_doctrine_naked_priests
+			doctrine = unreformed_faith_doctrine
+
 
 			doctrine = tenet_adaptive
 			doctrine = tenet_islamic_syncretism
@@ -679,152 +562,153 @@
 			holy_site = paderborn
 			holy_site = rome
 			holy_site = zeeland
-			holy_site = toledo
+			holy_site = rugen
 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_sanctity_of_nature
 		
-			localization: {
-				#High God Name
-				HighGodName = merovingian_pagan_high_god_name
-				HighGodNamePossessive = merovingian_pagan_high_god_name_possessive
-				HighGodNameSheHe = CHARACTER_SHEHE_HE
-				HighGodHerselfHimself = CHARACTER_HIMSELF
-				HighGodHerHis = CHARACTER_HERHIS_HIS
-				HighGodNameAlternate = merovingian_pagan_high_god_name_alternate
-				HighGodNameAlternatePossessive = merovingian_pagan_high_god_name_alternate_possessive
-
-				#Creator
-				CreatorName = merovingian_pagan_creator_god_name
-				CreatorNamePossessive = merovingian_pagan_creator_god_name_possessive
-				CreatorSheHe = CHARACTER_SHEHE_SHE
-				CreatorHerHis = CHARACTER_HERHIS_HER
-				CreatorHerHim = CHARACTER_HERHIM_HER
-
-				#HealthGod
-				HealthGodName = merovingian_pagan_health_god_name
-				HealthGodNamePossessive = merovingian_pagan_health_god_name_possessive
-				HealthGodSheHe = CHARACTER_SHEHE_HE
-				HealthGodHerHis = CHARACTER_HERHIS_HIS
-				HealthGodHerHim = CHARACTER_HERHIM_HIM
-				
-				#FertilityGod
-				FertilityGodName = merovingian_pagan_fertility_god_name
-				FertilityGodNamePossessive = merovingian_pagan_fertility_god_name_possessive
-				FertilityGodSheHe = CHARACTER_SHEHE_SHE
-				FertilityGodHerHis = CHARACTER_HERHIS_HER
-				FertilityGodHerHim = CHARACTER_HERHIM_HER
-
-				#WealthGod
-				WealthGodName = merovingian_pagan_wealth_god_name
-				WealthGodNamePossessive = merovingian_pagan_wealth_god_name_possessive
-				WealthGodSheHe = CHARACTER_SHEHE_HE
-				WealthGodHerHis = CHARACTER_HERHIS_HIS
-				WealthGodHerHim = CHARACTER_HERHIM_HIM
-
-				#HouseholdGod
-				HouseholdGodName = merovingian_pagan_household_god_name
-				HouseholdGodNamePossessive = merovingian_pagan_household_god_name_possessive
-				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-				HouseholdGodHerHis = CHARACTER_HERHIS_HER
-				HouseholdGodHerHim = CHARACTER_HERHIM_HER
-
-				#FateGod
-				FateGodName = merovingian_pagan_fate_god_name
-				FateGodNamePossessive = merovingian_pagan_fate_god_name_possessive
-				FateGodSheHe = CHARACTER_SHEHE_THEY
-				FateGodHerHis = CHARACTER_HERHIS_THEIR
-				FateGodHerHim = CHARACTER_HERHIM_THEM
-
-				#KnowledgeGod
-				KnowledgeGodName = merovingian_pagan_knowledge_god_name
-				KnowledgeGodNamePossessive = merovingian_pagan_knowledge_god_name_possessive
-				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
-				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
-				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
-
-				#WarGod
-				WarGodName = merovingian_pagan_war_god_name
-				WarGodNamePossessive = merovingian_pagan_war_god_name_possessive
-				WarGodSheHe = CHARACTER_SHEHE_HE
-				WarGodHerHis = CHARACTER_HERHIS_HIS
-				WarGodHerHim = CHARACTER_HERHIM_HIM
-
-				#TricksterGod
-				TricksterGodName = merovingian_pagan_trickster_god_name
-				TricksterGodNamePossessive = merovingian_pagan_trickster_god_name_possessive
-				TricksterGodSheHe = CHARACTER_SHEHE_HE
-				TricksterGodHerHis = CHARACTER_HERHIS_HIS
-				TricksterGodHerHim = CHARACTER_HERHIM_HIM
-
-				#NightGod
-				NightGodName = merovingian_pagan_night_god_name
-				NightGodNamePossessive = merovingian_pagan_night_god_name_possessive
-				NightGodSheHe = CHARACTER_SHEHE_SHE
-				NightGodHerHis = CHARACTER_HERHIS_HER
-				NightGodHerHim = CHARACTER_HERHIM_HER
-
-				#WaterGod
-				WaterGodName = merovingian_pagan_water_god_name
-				WaterGodNamePossessive = merovingian_pagan_water_god_name_possessive
-				WaterGodSheHe = CHARACTER_SHEHE_HE
-				WaterGodHerHis = CHARACTER_HERHIS_HIS
-				WaterGodHerHim = CHARACTER_HERHIM_HIM
-
-
-
-				PantheonTerm = religion_the_gods
-				PantheonTermHasHave = pantheon_term_have
-				GoodGodNames = { merovingian_pagan_good_god_poseidon merovingian_pagan_good_god_athena merovingian_pagan_good_god_ares merovingian_pagan_good_god_hera merovingian_pagan_good_god_apollo merovingian_pagan_good_god_artemis merovingian_pagan_good_god_hermes merovingian_pagan_good_god_aphrodite }
-				DevilName = merovingian_pagan_devil_name
-				DevilNamePossessive = merovingian_pagan_devil_name_possessive
-				DevilSheHe = CHARACTER_SHEHE_HE
-				DevilHerHis = CHARACTER_HERHIS_HIS
-				DevilHerselfHimself = CHARACTER_HIMSELF
-				EvilGodNames = { merovingian_pagan_evil_god_menoetius merovingian_pagan_evil_god_erinyes }
-				HouseOfWorship = paganism_house_of_worship
-				HouseOfWorshipPlural = paganism_house_of_worship_plural
-				ReligiousSymbol = merovingian_pagan_religious_symbol
-				ReligiousText = merovingian_pagan_religious_text
-				ReligiousHeadName = merovingian_pagan_religious_head_title
-				ReligiousHeadTitleName = dualism_religious_head_title_name
-				DevoteeMale = merovingian_pagan_religion_adherent
-				DevoteeMalePlural = merovingian_pagan_religion_adherent_plural
-				DevoteeFemale = merovingian_pagan_religion_adherent
-				DevoteeFemalePlural = merovingian_pagan_religion_adherent_plural
-				DevoteeNeuter = merovingian_pagan_religion_adherent
-				DevoteeNeuterPlural = merovingian_pagan_religion_adherent_plural
-				PriestMale = merovingian_pagan_priest_male
-				PriestMalePlural = merovingian_pagan_priest_male_plural
-				PriestFemale = merovingian_pagan_priest_female
-				PriestFemalePlural = merovingian_pagan_priest_female_plural
-				PriestNeuter = merovingian_pagan_priest_male
-				PriestNeuterPlural = merovingian_pagan_priest_male_plural
-				AltPriestTermPlural = christianity_priest_alternate_plural
-				BishopMale = merovingian_pagan_bishop_male
-				BishopMalePlural = merovingian_pagan_bishop_male_plural
-				BishopFemale = merovingian_pagan_priest_female
-				BishopFemalePlural = merovingian_pagan_priest_female_plural
-				BishopNeuter = merovingian_pagan_priest_male
-				BishopNeuterPlural = merovingian_pagan_priest_male_plural
-				DivineRealm = merovingian_pagan_divine_realm
-				PositiveAfterLife = merovingian_pagan_death_deity_name
-				NegativeAfterLife = merovingian_pagan_death_deity_name
-				DeathDeityName = merovingian_pagan_death_deity_name
-				DeathDeityNamePossessive = merovingian_pagan_death_deity_name_possessive
-				DeathDeitySheHe = CHARACTER_SHEHE_HE
-				DeathDeityHerHis = CHARACTER_HERHIS_HIS
-				WitchGodName = merovingian_pagan_witchgodname_hekate
-				WitchGodHerHis = CHARACTER_HERHIS_HER
-				WitchGodSheHe = CHARACTER_SHEHE_HE
-				WitchGodHerHim = CHARACTER_HERHIM_HER
-				WitchGodMistressMaster = mistress
-				WitchGodMotherFather = mother
-			}			
+			#localization: {
+			#	#High God Name
+			#	HighGodName = merovingian_pagan_high_god_name
+			#	HighGodNamePossessive = merovingian_pagan_high_god_name_possessive
+			#	HighGodNameSheHe = CHARACTER_SHEHE_HE
+			#	HighGodHerselfHimself = CHARACTER_HIMSELF
+			#	HighGodHerHis = CHARACTER_HERHIS_HIS
+			#	HighGodNameAlternate = merovingian_pagan_high_god_name_alternate
+			#	HighGodNameAlternatePossessive = merovingian_pagan_high_god_name_alternate_possessive
+			#
+			#	#Creator
+			#	CreatorName = merovingian_pagan_creator_god_name
+			#	CreatorNamePossessive = merovingian_pagan_creator_god_name_possessive
+			#	CreatorSheHe = CHARACTER_SHEHE_SHE
+			#	CreatorHerHis = CHARACTER_HERHIS_HER
+			#	CreatorHerHim = CHARACTER_HERHIM_HER
+			#
+			#	#HealthGod
+			#	HealthGodName = merovingian_pagan_health_god_name
+			#	HealthGodNamePossessive = merovingian_pagan_health_god_name_possessive
+			#	HealthGodSheHe = CHARACTER_SHEHE_HE
+			#	HealthGodHerHis = CHARACTER_HERHIS_HIS
+			#	HealthGodHerHim = CHARACTER_HERHIM_HIM
+			#	
+			#	#FertilityGod
+			#	FertilityGodName = merovingian_pagan_fertility_god_name
+			#	FertilityGodNamePossessive = merovingian_pagan_fertility_god_name_possessive
+			#	FertilityGodSheHe = CHARACTER_SHEHE_SHE
+			#	FertilityGodHerHis = CHARACTER_HERHIS_HER
+			#	FertilityGodHerHim = CHARACTER_HERHIM_HER
+			#
+			#	#WealthGod
+			#	WealthGodName = merovingian_pagan_wealth_god_name
+			#	WealthGodNamePossessive = merovingian_pagan_wealth_god_name_possessive
+			#	WealthGodSheHe = CHARACTER_SHEHE_HE
+			#	WealthGodHerHis = CHARACTER_HERHIS_HIS
+			#	WealthGodHerHim = CHARACTER_HERHIM_HIM
+			#
+			#	#HouseholdGod
+			#	HouseholdGodName = merovingian_pagan_household_god_name
+			#	HouseholdGodNamePossessive = merovingian_pagan_household_god_name_possessive
+			#	HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+			#	HouseholdGodHerHis = CHARACTER_HERHIS_HER
+			#	HouseholdGodHerHim = CHARACTER_HERHIM_HER
+			#
+			#	#FateGod
+			#	FateGodName = merovingian_pagan_fate_god_name
+			#	FateGodNamePossessive = merovingian_pagan_fate_god_name_possessive
+			#	FateGodSheHe = CHARACTER_SHEHE_THEY
+			#	FateGodHerHis = CHARACTER_HERHIS_THEIR
+			#	FateGodHerHim = CHARACTER_HERHIM_THEM
+			#
+			#	#KnowledgeGod
+			#	KnowledgeGodName = merovingian_pagan_knowledge_god_name
+			#	KnowledgeGodNamePossessive = merovingian_pagan_knowledge_god_name_possessive
+			#	KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+			#	KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+			#	KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+			#
+			#	#WarGod
+			#	WarGodName = merovingian_pagan_war_god_name
+			#	WarGodNamePossessive = merovingian_pagan_war_god_name_possessive
+			#	WarGodSheHe = CHARACTER_SHEHE_HE
+			#	WarGodHerHis = CHARACTER_HERHIS_HIS
+			#	WarGodHerHim = CHARACTER_HERHIM_HIM
+			#
+			#	#TricksterGod
+			#	TricksterGodName = merovingian_pagan_trickster_god_name
+			#	TricksterGodNamePossessive = merovingian_pagan_trickster_god_name_possessive
+			#	TricksterGodSheHe = CHARACTER_SHEHE_HE
+			#	TricksterGodHerHis = CHARACTER_HERHIS_HIS
+			#	TricksterGodHerHim = CHARACTER_HERHIM_HIM
+			#
+			#	#NightGod
+			#	NightGodName = merovingian_pagan_night_god_name
+			#	NightGodNamePossessive = merovingian_pagan_night_god_name_possessive
+			#	NightGodSheHe = CHARACTER_SHEHE_SHE
+			#	NightGodHerHis = CHARACTER_HERHIS_HER
+			#	NightGodHerHim = CHARACTER_HERHIM_HER
+			#
+			#	#WaterGod
+			#	WaterGodName = merovingian_pagan_water_god_name
+			#	WaterGodNamePossessive = merovingian_pagan_water_god_name_possessive
+			#	WaterGodSheHe = CHARACTER_SHEHE_HE
+			#	WaterGodHerHis = CHARACTER_HERHIS_HIS
+			#	WaterGodHerHim = CHARACTER_HERHIM_HIM
+			#
+			#
+			#
+			#	PantheonTerm = religion_the_gods
+			#	PantheonTermHasHave = pantheon_term_have
+			#	GoodGodNames = { merovingian_pagan_good_god_poseidon merovingian_pagan_good_god_athena merovingian_pagan_good_god_ares merovingian_pagan_good_god_hera merovingian_pagan_good_god_apollo merovingian_pagan_good_god_artemis merovingian_pagan_good_god_hermes merovingian_pagan_good_god_aphrodite }
+			#	DevilName = merovingian_pagan_devil_name
+			#	DevilNamePossessive = merovingian_pagan_devil_name_possessive
+			#	DevilSheHe = CHARACTER_SHEHE_HE
+			#	DevilHerHis = CHARACTER_HERHIS_HIS
+			#	DevilHerselfHimself = CHARACTER_HIMSELF
+			#	EvilGodNames = { merovingian_pagan_evil_god_menoetius merovingian_pagan_evil_god_erinyes }
+			#	HouseOfWorship = paganism_house_of_worship
+			#	HouseOfWorshipPlural = paganism_house_of_worship_plural
+			#	ReligiousSymbol = merovingian_pagan_religious_symbol
+			#	ReligiousText = merovingian_pagan_religious_text
+			#	ReligiousHeadName = merovingian_pagan_religious_head_title
+			#	ReligiousHeadTitleName = dualism_religious_head_title_name
+			#	DevoteeMale = merovingian_pagan_religion_adherent
+			#	DevoteeMalePlural = merovingian_pagan_religion_adherent_plural
+			#	DevoteeFemale = merovingian_pagan_religion_adherent
+			#	DevoteeFemalePlural = merovingian_pagan_religion_adherent_plural
+			#	DevoteeNeuter = merovingian_pagan_religion_adherent
+			#	DevoteeNeuterPlural = merovingian_pagan_religion_adherent_plural
+			#	PriestMale = merovingian_pagan_priest_male
+			#	PriestMalePlural = merovingian_pagan_priest_male_plural
+			#	PriestFemale = merovingian_pagan_priest_female
+			#	PriestFemalePlural = merovingian_pagan_priest_female_plural
+			#	PriestNeuter = merovingian_pagan_priest_male
+			#	PriestNeuterPlural = merovingian_pagan_priest_male_plural
+			#	AltPriestTermPlural = christianity_priest_alternate_plural
+			#	BishopMale = merovingian_pagan_bishop_male
+			#	BishopMalePlural = merovingian_pagan_bishop_male_plural
+			#	BishopFemale = merovingian_pagan_priest_female
+			#	BishopFemalePlural = merovingian_pagan_priest_female_plural
+			#	BishopNeuter = merovingian_pagan_priest_male
+			#	BishopNeuterPlural = merovingian_pagan_priest_male_plural
+			#	DivineRealm = merovingian_pagan_divine_realm
+			#	PositiveAfterLife = merovingian_pagan_death_deity_name
+			#	NegativeAfterLife = merovingian_pagan_death_deity_name
+			#	DeathDeityName = merovingian_pagan_death_deity_name
+			#	DeathDeityNamePossessive = merovingian_pagan_death_deity_name_possessive
+			#	DeathDeitySheHe = CHARACTER_SHEHE_HE
+			#	DeathDeityHerHis = CHARACTER_HERHIS_HIS
+			#	WitchGodName = merovingian_pagan_witchgodname_hekate
+			#	WitchGodHerHis = CHARACTER_HERHIS_HER
+			#	WitchGodSheHe = CHARACTER_SHEHE_HE
+			#	WitchGodHerHim = CHARACTER_HERHIM_HER
+			#	WitchGodMistressMaster = mistress
+			#	WitchGodMotherFather = mother
+			#}			
 		
 		}
 		
