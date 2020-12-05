@@ -1,0 +1,20 @@
+﻿l_english:
+ 
+  ##Witchcraft Lifestyle
+ witchcraft_lifestyle_name:0 "Witchcraft"
+ witchcraft_lifestyle_desc:0 "Mastering the arts of augury, rituals of invocation, or the formulae of alchemy."
+ witchcraft_lifestyle_highlight:0 "Given that people already see you as touched by the supernatural, you gain access to this forbidden knowledge."
+ augury_name:0 "Oracle"
+ witchcraft_augury_focus:0 "Augury Focus"
+ witchcraft_augury_focus_modifier:1 "[GetFocus('witchcraft_augury_focus').GetName]"
+ witchcraft_augury_focus_desc:0 "The art of seeing the future - or the past, or the truth - is an unreliable but highly influential practice."
+ witchcraft_augury_focus_effect_desc:0 "Studying augury grants:"
+ ritualism_name:0 "Ritualism"
+ witchcraft_ritualism_focus:0 "Ritualism Focus"
+ witchcraft_ritualism_focus_modifier:1 "[GetFocus('witchcraft_ritualism_focus').GetName]"
+ witchcraft_ritualism_focus_desc:0 "Calling forth names of the powerful has a way of getting results, through mysterious ways."
+ witchcraft_ritualism_focus_effect_desc:0 "Studying rituals grants:"
+ alchemy_name:0 "Alchemist"
+ witchcraft_alchemy_focus:0 "Alchemy Focus"
+ witchcraft_alchemy_focus_modifier:1 "[GetFocus('witchcraft_alchemy_focus').GetName]"
+ witchcraft_alchemy_focus_desc:0 "Transmutation or immortality may be a stretch, but much can ba accomplished by alchemy with the proper precaution." witchcraft_alchemy_focus_effect_desc:0 "Studying alchemy grants:"

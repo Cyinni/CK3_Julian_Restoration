@@ -32,8 +32,7 @@ haruspicy_perk = {
 	
 	
 	effect = {
-		custom_description_no_bullet = {
-			text = haruspicy_perk_effect
+
 		}
 	}
 }

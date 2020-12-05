@@ -1,5 +1,8 @@
 ﻿l_english:
 
+witchcraft_lifestyle_highlight_desc:0 "Since you are already marked by the supernatural, the ways of the strange and arcane come naturally."
+
+
 ##Witchcraft: Augury
  haruspicy_perk_name:0               "Haruspicy"
  bone_reading_perk_name:0            "Read the Bones"
@@ -34,3 +37,34 @@ acids_perk_name:0            "Acids"
 curatives_perk_name:0        "Curatives"
 explosives_perk_name:0       "Explosives"
 alchemist_perk_name:0 "Alchemist"
+
+
+##Witchcraft: Augury
+ haruspicy_perk_desc:0               "Tearing apart an animal to read omens in its entrails."
+ bone_reading_perk_desc:0            "Scattered bones fall in patterns that speak to the learned."
+ dark_omens_perk_desc:0              "The universe speaks, for those who know how to listen."
+ auspices_perk_desc:0                "Some omens whisper good tidings."
+ auspicious_child_perk_desc:0        "All children may be precious, but some are truly blessed."
+ stormcalling_perk_desc:0            "Storm or shine, the sky tells you first."
+ declare_reincarnation_perk_desc:0   "The ancestors watch, and sometimes come again."
+ accursed_clan_perk_desc:0           "A sour tree grows foul roots."
+ 
+##Witchcraft: Ritualism
+hexcraft_perk_desc:0         "The art of calling down the attention of the wicked is a subtle one. Usually."
+blessing_perk_desc:0         "When summoning the names of the gods, it is best to be prepared."
+promised_child_perk_desc:0   "One of the great gifts of the gods is that of siring new life."
+wither_womb_perk_desc:0      "What the gods grant, they can take away."
+ensorcell_perk_desc:0        "That which calls the gods can command the attention of mortals."
+stolen_seed_perk_desc:0      "Through the divine, one can even sire a child of the soul, rather than base flesh. "
+god_marked_perk_desc:0       "Even without a word, all can see who it is the gods are minding."
+spread_craft_perk_desc:0     "Expertise means nothing, if it cannot be shared."
+
+##Witchcraft: Alchemy
+foul_vapors_perk_desc:0      "The seeming of a substance is only the first of its properties."
+lab_safety_perk_desc:0       "Some things are cheaper than training new apprentices."
+distillation_perk_desc:0     "Concentrated spirits have many uses outside the craft - and some are tasty!"
+dosages_perk_desc:0          "The difference between medicine and poison can be a matter of dose or concentration."
+exotic_powders_perk_desc:0   "Not all things can be acquired or made locally, but their properties are irreplaceable."
+acids_perk_desc:0            "How do we even store these things safely?!"
+curatives_perk_desc:0        "Unnatural materials, perhaps, but miraculous results."
+explosives_perk_desc:0       "Dramatic, dangerous, decieiving - but quite useful."

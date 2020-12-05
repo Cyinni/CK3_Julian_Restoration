@@ -1,0 +1,11 @@
+﻿l_english:
+ 
+ building_type_parthenon_01:0 "Ruins of the Parthenon"
+ building_type_parthenon_01_desc:0 "The ruined Parthenon still looms over Athens, a reminder of the epic monuments to the pantheons of Olympus."
+ building_parthenon_01:0 "$building_type_parthenon_01$"
+ building_parthenon_01_desc:0 "$building_type_parthenon_01_desc$"
+ building_type_parthenon_02:0 "Restored Parthenon"
+ building_type_parthenon_02_desc:0 "Rebuilt to its former glory, the temples and statues of the Parthenon once again exalt the glory of the gods."
+ building_parthenon_02:0 "$building_type_parthenon_02$"
+ building_parthenon_02_desc:0 "$building_type_parthenon_02_desc$"
+

@@ -1,7 +1,7 @@
 ﻿germanic_religion = {
 	family = rf_pagan
 	graphical_faith = pagan_gfx
-
+	doctrine_background_icon = gfx/coat_of_arms/colored_emblems/ce_triskelion.dds
 	pagan_roots = yes
 
 	doctrine = pagan_hostility_doctrine
@@ -280,10 +280,31 @@
 			doctrine = tenet_warmonger
 			doctrine = tenet_hellenic_syncretism
 			doctrine = tenet_ancestor_worship
+			
+		
+			localization = {
+				#HighGodName
+				HighGodName = vanir_high_god_name
+				HighGodNamePossessive = vanir_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+				HighGodNameAlternate = vanir_high_god_alternate
+				HighGodNameAlternatePossessive = vanir_high_god_alternate_possessive
+		
+				#KnowledgeGod
+				KnowledgeGodName = vanir_knowledge_god_name
+				KnowledgeGodNamePossessive = vanir_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+		
+				ReligiousHeadName = vanir_religious_head_title
+				ReligiousHeadTitleName = vanir_religious_head_title_name
+
+				}
+		
 			}
-		
-		
-		}
-	
+	}
 	
 }
