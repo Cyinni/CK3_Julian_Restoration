@@ -1,0 +1,21 @@
+﻿l_english:
+ d_norse_pagan_reformed_article:0 "the"
+ d_norse_pagan_reformed:0 "Fylkirate"
+ d_norse_pagan_reformed_adj:0 "Norse"
+ 
+ d_vanir_article:0 "the"
+ d_vanir:0 "Folkvanga"
+ d_vanir_adj:0 "Norse"
+ 
+ d_saxon_article:0 "the"
+ d_saxon:0 "Saxon Fylkirate"
+ d_saxon_adj:0 "Saxon"
+
+ d_visigothic_article:0 "the"
+ d_visigothic:0 "Visigoth Fylkirate"
+ d_visigothic_adj:0 "Visigothic"
+
+ e_midgard:0 "Midgard"
+ e_midgard_adj:0 "Midgardan"
+ e_midgard_pre:0 "Midgard"
+ 

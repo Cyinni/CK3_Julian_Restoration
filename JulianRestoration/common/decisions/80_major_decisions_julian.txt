@@ -1,0 +1,80 @@
+
+claim_midgard_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+
+	ai_check_interval = 120
+
+	desc = claim_midgard_decision_desc
+
+	is_shown = {
+		is_landed = yes
+		OR {
+			has_culture_group = culture_group:north_germanic_group
+			has_culture_group = culture_group:central_germanic_group
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:claim_midgard_decision
+			}
+		}
+	}
+
+	is_valid = {
+		completely_controls = title:k_sweden
+		completely_controls = title:k_norway
+		completely_controls = title:k_denmark
+		completely_controls = title:k_france
+		completely_controls = title:k_burgundy
+		completely_controls = title:k_bavaria
+		completely_controls = title:k_east_francia
+		completely_controls = title:k_frisia
+		completely_controls = title:k_lotharinga
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:claim_midgard_decision
+		}
+
+		show_as_tooltip = {
+			claim_midgard_effect = yes
+		}
+		trigger_event = british_isles.1001
+		save_scope_as = restorer
+		# Send event to other players
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				OR = {
+					primary_title = {
+						OR ={
+						title_capital_county.title_province = {  geographical_region = world_europe_west_scandinavia }
+						#title_capital_county.title_province = {  geographical_region = world_europe_west_scandinavia } # need to add Germanic option
+						}
+					}
+					has_culture_group = culture_group:north_germanic_group
+					has_culture_group = culture_group:central_germanic_group
+					has_culture_group = culture_group:west_germanic_group
+				}
+			}
+			trigger_event = british_isles.1002
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

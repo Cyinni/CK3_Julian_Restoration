@@ -1,0 +1,40 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+# EMPIRES
+
+# special titles
+
+d_visigothic = {
+	color = {250 150 50}
+	color2 = {150 250 100}
+	landless = yes
+
+	capitol = c_cordoba
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+}
+
+e_midgard = {
+	color = { 255 255 0 }
+	color2 = { 62 122 189 }
+	
+	capital = c_paderborn #Paderborn, site of the totemic Worldtree
+		
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:north_germanic_group
+			}
+			add = @correct_culture_primary_score
+			add = @better_than_the_alternatives_score
+		}
+	}
+}
+
+

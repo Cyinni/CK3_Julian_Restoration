@@ -3,4 +3,5 @@
 	piety_icon_group = "hellenic"
 	hostility_doctrine = hellenic_hostility_doctrine
 	doctrine_background_icon = core_tenet_banner_pagan.dds
+	
 }

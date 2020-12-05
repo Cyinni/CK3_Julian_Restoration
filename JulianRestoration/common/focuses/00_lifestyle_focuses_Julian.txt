@@ -1,0 +1,60 @@
+﻿## Implementing the structure of a "Witchcraft" lifestyle focus available to people with the Witch or Mystic traits, or sometimes through Lifestyle Experience.
+
+witchcraft_augury_focus 	= {
+	lifestyle = witchcraft_lifestyle
+	desc = {
+		desc = witchcraft_augury_focus_desc
+		desc = line_break
+		}
+	
+	modifier = {
+		intrigue = 1
+		dread_baseline_add = 10
+		monthly_prestige = 1
+	}
+	
+	auto_selection_weight = {
+		
+	}
+	
+	focus_id = 15
+}
+witchcraft_ritualism_focus 	= {
+	lifestyle = witchcraft_lifestyle
+	desc = {
+		desc = witchcraft_ritualism_focus_desc
+		desc = line_break
+	}
+	
+	modifier = {
+		learning = 1
+		monthly_piety = 0.5
+		seduce_scheme_power_mult = 0.1
+	}
+	
+	auto_selection_weight = {
+		#default is 1000
+	}
+	
+	focus_id = 16
+}
+witchcraft_alchemy_focus 	= {
+	lifestyle = witchcraft_lifestyle
+	desc = {
+		desc = witchcraft_alchemy_focus_desc
+		desc = line_break
+	}
+	
+	modifier = {
+		learning = 2
+		health = 0.1
+		monthly_income_mult = 0.05
+	}
+	
+	auto_selection_weight = {
+		
+	}
+	
+	focus_id = 17
+}
+
