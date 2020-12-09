@@ -33,9 +33,7 @@ hexcraft_perk = {
 	}
 		
 	effect = {
-		custom_description_no_bullet = {
-			text = hexcraft_perk_effect
-		}
+		
 	}
 }
 
@@ -133,9 +131,9 @@ stolen_seed_perk = {
 	
 	parent = wither_womb_perk
 
-	character_modifier = {
-		seduce_scheme_power_mult = 0.15
-	}	
+	#character_modifier = {
+	#	seduce_scheme_power_mult = 0.15
+	#}	
 	
 	##Check out seduction focus for increase attraction, 
 	##but enable Stolen Seed schemes based on gender.

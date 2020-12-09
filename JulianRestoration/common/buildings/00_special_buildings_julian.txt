@@ -1,0 +1,104 @@
+﻿
+########Implementing the Parthenon in Athens
+parthenon_01 = {
+		asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+		}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_petra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			religion = religion:hellenism_religion
+			culture = {
+				has_innovation = innovation_windmills
+			}
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:hellenism_religion
+		}
+	}	
+	cost_gold = 3000
+
+	county_modifier = {
+		tax_mult = 0.1
+		supply_limit_mult = 0.25
+		development_growth = 0.1
+		development_growth_factor = 0.15
+	}
+	
+	province_modifier = {
+		monthly_income = good_building_tax_tier_2
+	}
+	
+	next_building = parthenon_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+parthenon_02 = {
+	asset = {
+		type = pdxmesh
+		name = "building_special_notre_dame_mesh" #Look, this is temporary, OK?
+		}
+	construction_time = very_slow_construction_time
+	can_construct_potential = {
+			building_requirement_tribal = no
+		}
+		
+		can_construct = {
+			scope:holder = {
+				religion = religion:hellenism_religion
+				culture = {
+					has_innovation = innovation_windmills
+				}
+			}
+		}
+		
+		is_enabled = {
+			scope:holder = {
+				religion = religion:hellenism_religion
+			}
+		}
+		
+		show_disabled = yes
+		
+		cost_gold = 3000
+
+		character_modifier = {
+			monthly_piety = 1
+			learning_per_piety_level = 1
+			monthly_dynasty_prestige_mult = 0.05
+		}
+		county_modifier = {
+			supply_limit_mult = 0.25
+			county_opinion_add = 5
+			tax_mult = 0.2
+			development_growth_factor = 0.3
+			development_growth = 0.2
+		}
+		
+		province_modifier = {
+			monthly_income = 2
+		}
+		
+		ai_value = {
+			base = 100
+		}
+		
+		type = special
+		
+}

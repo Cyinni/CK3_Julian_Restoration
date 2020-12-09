@@ -18,8 +18,8 @@ witchcraft_lifestyle_highlight_desc:0 "Since you are already marked by the super
  
 ##Witchcraft: Ritualism
 hexcraft_perk_name:0         "Hexcraft"
-blessing_perk_name:0         "Blessings of the Divine"
-promised_child_perk_name:0   "Promises of the Seed"
+blessings_perk_name:0         "Blessings of the Divine"
+promised_seed_perk_name:0   "Promises of the Seed"
 wither_womb_perk_name:0      "Wither the Womb"
 ensorcell_perk_name:0        "Ensorcell"
 stolen_seed_perk_name:0      "Stolen Seed"

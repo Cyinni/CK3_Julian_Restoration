@@ -37,11 +37,10 @@ foul_vapors_perk = {
 	}
 	
 	effect = {	
-		custom_description_no_bullet = {
-			text = foul_vapors_perk_effect
-		}
+		
 	}
 }
+
 
 
 # Lab Safety
@@ -54,11 +53,11 @@ lab_safety_perk = {
 	parent = foul_vapors_perk
 	
 	effect = {
-		custom_description_no_bullet = {
-			text = lab_safety_perk_effect
-		}
+		
+		
 	}
 }
+
 
 
 # Distillation
@@ -130,11 +129,10 @@ curatives_perk = {
 	parent = dosages_perk
 	
 	effect = {
-		custom_description_no_bullet = {
-			text = curatives_perk_effect
-		}
+		
 	}
 }
+
 
 
 # Explosives

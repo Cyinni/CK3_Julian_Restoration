@@ -4,3 +4,11 @@
  claim_midgard_decision_desc:0 "The Aesir and Vanir were once worshipped across the continent - and will be again!"
  claim_midgard_decision_tooltip:0 "Claim dominion over Midgard"
  claim_midgard_decision_confirm:0 "Reclaim the lands of the Allfather"
+
+
+ midgard.0001.t:0 "Claim Midgard for the Allfather!"
+ midgard.0001.desc:0 "The Aesir and Vanir were once worshipped across the continent - and will be again!"
+ midgard.0001.a:0 "This is midgard.0001a in the decisions localization"
+ midgard.0002.desc:0 "Midgard relcaimed by the Germanic tribes!"
+ midgard.0002.a:0 "The terrifying norsemen of yore, forced to the edges of civlization, have reclaimed the lands of their ancestors. Their priests and sages gather at Paderborn to proclaim an emperor to rule at the right hand of their bloodthirsty gods, and all tremble at the thought of their barbaric berserkers, surely baying for more as they revel in their victories."
+ midgard.0002.b:0 "Hail Valhalla! The lands of Midgard, once claimed by the Aesir and Vanir, have been reclaimed! Even now the seidr and high priests converge on the root of the worldtree at Paderborn to crown the Emperor whose predecessors and warrior have struggled so long and hard to beat back the forces of Rome and the Dead God. Gaul, Franica, and the Nordlands are free again under the light of Asgard!"

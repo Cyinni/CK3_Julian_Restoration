@@ -28,15 +28,15 @@ haruspicy_perk = {
 		#		can_start_new_lifestyle_tree_trigger = no
 		#	}
 		#	multiply = 0
-		}
+	}
 	
 	
 	effect = {
 		
 
-		}
 	}
 }
+
 
 
 
@@ -160,10 +160,6 @@ declare_reincarnation_perk = {
 	icon = node_intrigue
 	
 	parent = stormcalling_perk
-	
-	parameters = {
-			reincarnation_events_active = yes
-		}
 	
 	effect = {
 		custom_description_no_bullet = {

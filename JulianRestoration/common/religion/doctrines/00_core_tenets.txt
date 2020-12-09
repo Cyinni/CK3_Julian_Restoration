@@ -2,6 +2,7 @@
 	group = "core_tenets"
 	number_of_picks = 3
 
+
 	############################
 	# Christian Faith Tenets	#
 	############################
@@ -1904,8 +1905,9 @@
 		}
 	}
 
+
 	#############################
-	# Syncretic Faith Tenets	#
+	# Syncretic Faith Tenets	# #Updated to include Hellenic Syncretism!
 	#############################
 
 	tenet_eastern_syncretism = {
@@ -2229,6 +2231,7 @@
 				sins = { humble }
 			}
 		}
+	
 
 
 	#############################
@@ -2588,4 +2591,3 @@
 	#	}
 	#}
 }
-

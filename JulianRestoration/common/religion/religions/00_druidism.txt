@@ -3,6 +3,8 @@
 
 	doctrine = pagan_hostility_doctrine
 
+	doctrine_background_icon = "pagan"
+	
 	pagan_roots = yes
 
 	#Main Group
@@ -219,6 +221,8 @@
 			holy_site = armagh
 			holy_site = iona
 			holy_site = zeeland
+			
+			
 
 			#Generic pagan tenets
 			doctrine = tenet_astrology

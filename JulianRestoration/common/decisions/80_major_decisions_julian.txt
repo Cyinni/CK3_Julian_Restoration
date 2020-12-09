@@ -48,7 +48,7 @@ claim_midgard_decision = {
 		show_as_tooltip = {
 			claim_midgard_effect = yes
 		}
-		trigger_event = british_isles.1001
+		trigger_event = midgard.1001
 		save_scope_as = restorer
 		# Send event to other players
 		every_player = {
@@ -66,7 +66,7 @@ claim_midgard_decision = {
 					has_culture_group = culture_group:west_germanic_group
 				}
 			}
-			trigger_event = british_isles.1002
+			trigger_event = midgard.1002
 		}
 	}
 	

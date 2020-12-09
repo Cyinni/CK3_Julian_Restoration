@@ -6,19 +6,19 @@
 
 # special titles
 
-d_visigothic = {
-	color = {250 150 50}
-	color2 = {150 250 100}
-	landless = yes
-
-	capitol = c_cordoba
-
-	destroy_if_invalid_heir = yes
-	no_automatic_claims = yes
-	always_follows_primary_heir = yes
-	de_jure_drift_disabled = yes
-
-}
+#d_visigothic = {
+#	color = {250 150 50}
+#	color2 = {150 250 100}
+#	landless = yes
+#
+#	capitol = c_cordoba
+#
+#	destroy_if_invalid_heir = yes
+#	no_automatic_claims = yes
+#	always_follows_primary_heir = yes
+#	de_jure_drift_disabled = yes
+#
+#}
 
 e_midgard = {
 	color = { 255 255 0 }

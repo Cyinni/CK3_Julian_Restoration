@@ -2,7 +2,7 @@
  
 #PERSONAL WITCH RITUAL
  witchcraft.4010.t:0 "[ROOT.Char.GetFaith.WitchGodHerHis|U] Gifts Are Plentiful"
- witchcraft.4010.desc:0 "I pour my gifts onto the soil; herbs, milk and honey. With my eyes closed and smoke stinging in my nostrils, I raise my arms towards the moon.\n\n"[ROOT.Char.GetFaith.WitchGodMistressMaster|U]! Knower of all truths, [ROOT.Char.GetFaith.WitchGodMotherFather] of all power! Please accept my humble gifts, and offer me your guidance in turn!"\n\nI ask [ROOT.Char.WitchGodName] for..."
+ witchcraft.4010.desc:0 "I pour my gifts onto the soil; herbs, milk and honey. With my eyes closed and smoke stinging in my nostrils, I raise my arms towards the moon.\n\n"[ROOT.Char.GetFaith.WitchGodMistressMaster|U]! Knower of all truths, [ROOT.Char.GetFaith.WitchGodMotherFather] of all power! Please accept my humble gifts, and offer me your guidance in turn!"\n\nI ask [ROOT.Char.GetFaith.WitchGodName] for..."
  witchcraft.4010.a:0 "Luck in the art of love."
  witchcraft.4010.b:0 "Charm and tact."
  witchcraft.4010.c:0 "A strategist's mind."
