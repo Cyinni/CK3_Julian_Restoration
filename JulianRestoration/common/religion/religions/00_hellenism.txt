@@ -224,19 +224,51 @@
 			holy_site = alexandria
 			holy_site = carthage
 
-			doctrine = doctrine_temporal_head
+			religious_head = d_roman_pontifex
+
+			doctrine = doctrine_theocracy_lay_clergy
 			
 
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_pursuit_of_power
 			doctrine = tenet_esotericism
 			
-			
+			reserved_male_names = { 
+				Aelianus Aelius Aemilianus Aemilius Aetius Africanus Agrippa Ahenobarbus Albanus Albinus Albus Antoninus
+				Antonius Appius Aquila Aquilinus Atilius Augustinus Augustus Aulus Aurelianus Aurelius Avilius Avitus 
+				Balbinus Balbus Blandinus Blandus Blasius Brutus Caecilius Caelinus Caelius Caesar Caeso Caesonius Caius 
+				Caligula Calpurnius Calvus Camillus Caracalla Cassian Cassianus Cassius Cato Celsus Cicero Claudius Cloelius
+				Cnaeus Cornelius Crispinus Crispus Cyprianus Decimus Diadumenianus Diocletianus Domitianus Domitius 
+				Drusus Duilius Egnatius Ennius Fabianus Fabius Fabricius Faustinus Faustus Felix Festus Flavianus Flavius
+				Florianus Florus Fulvius Gaius Gallus Germanus Glaucia Gnaeus Gordianus Gratianus Hadrianus Helvius 
+				Herminius Hilarius Horatius Hortensius Ianuarius Iovianus Iovita Iulianus Iulius Iunius Iuvenalis Januarius 
+				Jovian Julius Junius Laelius Laurentinus Laurentius Livianus Livius Longinus Loukios Lucanus Lucianus 
+				Lucilius Lucius Lucretius Manius Manlius Marcellinus Marcellus Marcianus Marcius Marcus Marianus Marinus 
+				Marius Martialis Martinus Maxentius Maximianus Maximilianus Maximinus Maximus Naevius Nero Nerva Nonus 
+				Octavianus Octavius Otho Ovidius Paulinus Paulus Petronius Plinius Pompeius Pompilius Pomponius Pontius 
+				Porcius Priscus Publius Quinctilianus Quinctilius Quinctius Quinctus Quintilianus Quintilius Quintillus 
+				Quintinus Quintius Quintus Regulus Romilius Rufinus Rufus Rusticus Sabinus Salvius Saturninus Scaevola 
+				Secundinus Secundus Seneca Septimius Septimus Sergius Servius Severianus Severinus Severus Sextilius 
+				Sextus Silvanus Spartacus Spurius Tacitus Tarquinius Tatianus Tatius Terentius Tertius Thracius 
+				Tiberius Tiburtius Titianus Titus Traianus Tullius Tullus Valens Valentinianus Valentinus Valerianus 
+				Valerius Varinius Varius Vergilius Verginius Vespasianus Vibianus Vibius Vinicius Vitus
+			}
+			reserved_female_names = {
+				Aelia Aeliana Aemilia Aemiliana Agrippa Agrippina Alba Albina Antonia Antonina Aquila Aquilina Augusta 
+				Augustina Aurelia Aureliana Balbina Blandina Caecilia Caelia Caelina Caesonia Calpurnia Camilla Cassia 
+				Claudia Cloelia Cornelia Decima Domitia Domitilla Drusa Drusilla Fabia Fabiana Fabiola Fabricia Fausta 
+				Faustina Flavia Flaviana Floriana Fulvia Galla Germana Glaucia Gratiana Hadriana Helvia Herminia Hilaria 
+				Horatia Hortensia Iovita Iulia Iuliana Iunia Julia Juliana Junia Laelia Laurentia Laurentina Livia 
+				Liviana Longina Lucia Luciana Lucilia Lucilla Lucretia Marcella Marcellina Marcia Marciana Mariana Marina 
+				Martina Maxima Maximiliana Nona Octavia Ovidia Paula Paulina Petronia Pomponia Porcia Prisca Priscilla
+				Quintina Rufina Sabina Saturnina Septima Severina Tacita Tatiana Tertia Titiana Tullia Valentina
+				Valeria Valeriana Varinia Verginia Vibiana Virginia Vita
+			}
 		}
 		
 		olympian_pagan = {
 			color = { 0.5 0.2 0.6 }
-			icon = hellenic
+			icon = olympian
 			reformed_icon = hellenic_reformed
 
 			holy_site = constantinople
@@ -245,13 +277,68 @@
 			holy_site = alexandria
 			holy_site = antioch
 
-			doctrine = doctrine_spiritual_head
-			
+			doctrine = doctrine_theocracy_lay_clergy
+			religious_head = d_olympian_exegetes
+
 
 			doctrine = tenet_astrology
 			doctrine = tenet_mystical_birthright
 			doctrine = tenet_esotericism
-			
+
+			reserved_male_names = {
+				Acacius Achaikos Achilles Achilleus Aeschylus Aesop Agapetos Agapetus Agapios Agathinos Agathinus Agathon 
+				Aisopos Akakios Alcaeus Alcibiades Alexander Alexandros Alexios Alexis Alexius Alkaios Alkibiades Ambrosios
+				Ambrosius Ampelios Ampelius Amyntas Anacletus Anakletos Anastasios Anastasius Anatolios Anatolius Anaxagoras
+				Andreas Androcles Androkles Andronicus Andronikos Anicetus Aniketos Antigonos Antigonus Antiochos Antiochus
+				Antipater Antipatros Aphrodisios Apollinaris Apollodoros Apollonides Apollonios Apollonius Arcadius Archelaos
+				Archelaus Archimedes Archippos Argyros Aristarchos Aristarchus Aristeides Aristides Aristocles Aristodemos
+				Aristokles Ariston Aristophanes Aristoteles Aristotle Arkadios Arsenios Arsenius Artemidoros Artemios
+				Artemisios Artemius Artemon Asclepiades Asklepiades Athanas Athanasios Athanasius Athenodoros Atticus
+				Attikos Auxentios Auxentius Basileios Basilius Bion Callias Callinicus Cassander Chares Charilaos
+				Chariton Chrestos Chrysanthos Cleisthenes Cleitus Cleon Clisthenes Clitus Cosmas Cyrillus Cyrus
+				Damianos Damianus Dareios Demetrios Demetrius Democritus Demokritos Demon Demophon Demosthenes Diocles
+				Diodoros Diodorus Diodotos Diodotus Diogenes Diokles Dion Dionysios Dionysius Dionysodoros Draco Drakon
+				Eirenaios Epaphras Epaphroditos Epiktetos Epiphanes Epiphanios Epiphanius Erasmos Erastos Euaristos Euclid
+				Euclides Eudoxos Eugenios Eugenius Eugraphios Eukleides Euphemios Euphranor Euripides Eusebios Eusebius
+				Eustachys Eustathios Eustathius Eustorgios Eustorgius Euthymios Euthymius Eutropios Eutropius Eutychios
+				Eutychius Eutychos Evaristus Gaios Galenos Gennadios Gennadius Georgios Georgius Heliodoros Heracleitus
+				Heraclides Heraclitus Heraclius Herakleides Herakleios Herakleitos Hermagoras Hermes Hermogenes
+				Hermokrates Hermolaos Hero Herodotos Herodotus Heroides Heroidion Heron Hesiod Hesiodos Hesperos
+				Hieronymos Hieronymus Hilarion Hippocrates Hippokrates Hippolytos Homer Homeros Hyacinthus Hyakinthos
+				Hyginos Hyginus Hypatos Iason Irenaeus Ireneus Isidoros Isocrates Isokrates Kallias Kallikrates
+				Kallinikos Kallippos Kallistos Karpos Kassandros Kleisthenes Kleitos Kleon Kleopatros Kosmas Kyriakos 
+				Kyrillos Kyros Leon Leonidas Leontios Leontius Leucippus Leukippos Linos Linus Loukianos Lycurgus Lycus 
+				Lydos Lykos Lykourgos Lysander Lysandros Lysimachos Lysimachus Markos Melanthios Meliton Metrophanes 
+				Miltiades Mnason Myron Neon Neophytos Nereus Nicander Nicanor Nicolaus Nicomedes Nicostratus Nikandros 
+				Nikanor Nikephoros Niketas Nikias Nikodemos Nikolaos Nikomachos Nikomedes Nikon Nikostratos Olympiodoros 
+				Olympos Onesimos Onesiphoros Origenes Pamphilos Pancratius Pankratios Pantaleon Panther Pantheras Paramonos 
+				Pelagios Pelagius Pericles Perikles Phaedrus Phaidros Philadelphos Philadelphus Philandros Philippos Philo 
+				Philokrates Philon Philotheos Phocas Phoibos Phokas Photios Plato Platon Ploutarchos Polycarp Polykarpos 
+				Porphyrios Praxiteles Prochoros Prokopios Ptolemaios Pyrrhos Pyrrhus Pythagoras Seleucus Seleukos Serapion 
+				Simon Simonides Socrates Sokrates Solon Sophocles Sophokles Sophos Sophron Sophus Sosigenes Stephanos Straton 
+				Telesphoros Telesphorus Thales Themistocles Themistokles Theocritus Theodoros Theodorus Theodosios Theodosius 
+				Theodotos Theodotus Theodoulos Theodulus Theokritos Theophanes Theophilos Theophilus Theophylaktos Theotimos 
+				Theotimus Theron Thoukydides Thucydides Timaeus Timaios Timon Timoteus Timotheos Trophimos Tryphon Tychon 
+				Xanthippos Xanthos Xenagoras Xenocrates Xenokrates Xenon Xenophon Zeno Zenobios Zenon Zephyros Zopyros 
+				Zosimos Zosimus Zoticus Zotikos
+
+			}
+			reserved_female_names = {
+				Agape Agatha Agathe Agnes Aikaterine Alexandra Alexis Ambrosia Anastasia Anthousa Aphrodisia Apollonia 
+				Archippe Arete Aristomache Artemisia Aspasia Athanasia Athenais Berenice Berenike Charikleia Charis 
+				Charmion Chloe Chrysanthe Cleopatra Cléopâtre Corinna Demetria Demostrate Doris Eirene Elpis Euanthe 
+				Eudocia Eudokia Eudoxia Eugeneia Eugenia Eulalia Eumelia Eunike Euphemia Euphrasia Eupraxia Euthalia 
+				Euthymia Eutropia Eutychia Gaiana Gaiane Galene Glaphyra Hagne Helena Helene Herais Heroidias Hypatia 
+				Irene Isidora Kallisto Kallistrate Kassandra Kleopatra Korinna Leontia Ligeia Lysandra Lysistrata Lysistrate 
+				Melissa Melite Melitta Menodora Metrodora Myrrhine Myrto Nike Nikephoros Nymphodora Olympias Pelagia 
+				Pherenike Phile Phoibe Photina Photine Ptolemais Rhode Rhodopis Rhoxane Roxana Sappho Sophia Sostrate 
+				Syntyche Thaïs Thais Theano Theodora Theodosia Theokleia Theophania Theophila Timo Timothea Tryphaina 
+				Tryphosa Xanthe Xanthippe Xenia Xeno Zenais Zenobia Zoe Zosime
+
+			}
+
+
+
 			localization = {
 				#High God Name
 				HighGodName = olympian_pagan_high_god_name
@@ -393,8 +480,10 @@
 		
 		alexandrian_pagan = {
 			color = { 0.7 0.5 0.2 }
-			icon = hellenic
+			icon = serapean
 			reformed_icon = hellenic_reformed
+
+
 
 			holy_site = sinai
 			holy_site = rome
@@ -405,7 +494,6 @@
 			doctrine = doctrine_clerical_function_alms_and_pacification
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_pluralism_pluralistic
-			#doctrine = special_doctrine_naked_priests
 			doctrine = unreformed_faith_doctrine
 
 
@@ -413,6 +501,8 @@
 			doctrine = tenet_islamic_syncretism
 			doctrine = tenet_esotericism
 			
+
+
 			localization = {
 				#High God Name
 				HighGodName = alexandrian_pagan_high_god_name

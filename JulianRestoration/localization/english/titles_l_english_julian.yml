@@ -19,3 +19,11 @@
  e_midgard_adj:0 "Midgardan"
  e_midgard_pre:0 "Midgard"
  
+ d_roman_pontifex:0 "Pontifex Maximum"
+ d_roman_pontifex_adj:0 "Pontifical"
+ d_roman_pontifex_pre:0 "Roman"
+ 
+ d_olympian_exegetes:0 "Magna Exegetes"
+ d_olympian_exegetes_adj:0 "Exegetean"
+ d_olympian_exegetes_pre:0 "Olympian"
+ 

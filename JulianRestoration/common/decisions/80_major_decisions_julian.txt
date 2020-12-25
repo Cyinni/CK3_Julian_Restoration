@@ -9,7 +9,7 @@ claim_midgard_decision = {
 
 	is_shown = {
 		is_landed = yes
-		OR {
+		OR = {
 			has_culture_group = culture_group:north_germanic_group
 			has_culture_group = culture_group:central_germanic_group
 		}
@@ -78,3 +78,5 @@ claim_midgard_decision = {
 		base = 100
 	}
 }
+
+

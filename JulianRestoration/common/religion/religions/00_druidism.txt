@@ -48,6 +48,19 @@
 		{ name = holy_order_warriors_of_the_symbol }
 	}
 
+	reserved_male_names = {
+		Áed Áedán Áedh Arthfael Arthmael Bradán Bréanainn Brennus Brian Bricius Cadeyrn Caiside Caomh 
+		Caomhán Caratacos Caratacus Cathasach Conchobar Corraidhín Cuidightheach Cuimín Cunobelinus Cynbel 
+		Cynwrig Donnchad Donndubhán Drest Drust Drustan Dubhshláine Dubhthach Elisedd Eógan Fáelán Fedelmid 
+		Fedlimid Feidlimid Galchobhar Gwrtheyrn Lóegaire Lugubelenus Máedóc Maeleachlainn Máel-Máedóc 
+		Máel-Sechlainn Máel-Sechnaill Mathghamhain Mochán Morcant Nechtan Ninian Nuallán Nynniaw Óengus 
+		Seisyll Sluaghadhán Suibhne Toirdelbach Toutorix Vercingetorix
+	}
+	reserved_female_names = {
+		Boadicea Boudica Boudicca Fedelmid Fedlimid Feidlimid Luigsech
+
+	}
+
 	holy_order_maa = { horse_archers }
 
 	localization = {

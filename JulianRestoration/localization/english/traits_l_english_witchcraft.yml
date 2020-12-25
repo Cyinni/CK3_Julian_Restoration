@@ -5,7 +5,7 @@
  trait_augur_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s pronouncements are feared - whether wrong or right, it's best to listen carefully."
  
  trait_ritualist:0 "Ritualist"
- trait_ritualist_desc:0 "With the rituals complete, surely the gods are watching, for all god-fearing men and women surely are."
+ trait_ritualist_desc:0 "With the rituals complete, surely the gods are watching, for all god-fearing men and women are."
  trait_ritualist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered strange rites and claims power over life, death, and birth."
  
  trait_alchemist:0 "Alchemist"

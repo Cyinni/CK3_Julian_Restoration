@@ -7,9 +7,9 @@
 @neg_compat_medium = -15
 @neg_compat_low = -5
 
-################### LIFESTYLE ##################
+################### LIFESTYLE TRAITS ##################
 alchemist = {
-	index = 4035
+	index = 935
 	lifestyle = yes
 	
 	prowess = 2
@@ -17,7 +17,8 @@ alchemist = {
 	monthly_prestige_gain_mult = 0.2
 	learning = 3
 	intrigue = 1
-	
+	cultural_head_fascination_mult = 0.40
+
 	ruler_designer_cost = 50
 
 	ai_boldness = low_positive_ai_value
@@ -31,10 +32,11 @@ alchemist = {
 		drunkard = @pos_compat_low
 		craven = @neg_compat_low
 	}
+
 }
 
 ritualist = {
-	index = 4036
+	index = 936
 	lifestyle = yes
 
 	diplomacy = 2
@@ -58,7 +60,7 @@ ritualist = {
 }
 
 augur = {
-	index = 4037
+	index = 937
 	lifestyle = yes
 
 	intrigue = 3
@@ -83,7 +85,7 @@ augur = {
 
 # Character is seen as a reincarnation of another character.
 proclaimed_reincarnation = {
-	index = 4192
+	index = 992
 	fame = yes
 
 	same_faith_opinion = 5

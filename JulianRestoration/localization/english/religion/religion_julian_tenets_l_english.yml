@@ -17,7 +17,9 @@
  doctrine_parameter_opinion_of_hellenic_syncretic_actor_opinion_active:0 ""
  doctrine_parameter_hellenic_syncretic_conversion_malus_active:0 "Base speed of converting syncretised faiths is reduced by [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%]"
  
- special_doctrine_is_hellenic_faith_name:0 "Hellenic faith"
- special_doctrine_is_hellenic_faith_desc:0 "This faith is part of the Hellenic religion."
+ special_doctrine_is_hellenic_faith_name:0 "Tales of the Gods"
+ special_doctrine_is_hellenic_faith_desc:0 "The tales of the gods travel far further than the reach of any flamens or priest; those who listen can see truth in them whatever they might call the gods in their own tongues."
  hellenic_hostility_doctrine_name:0 "Hellenic hostility"
- hellenic_hostility_doctrine_desc:0 "This faith is as tolerant as other Hellenic faiths."
+ hellenic_hostility_doctrine_desc:0 "The Hellenes see other religions as relfections of their own - lesser reflections."
+
+ doctrine_parameter_hostility_override_tenet_hellenic_syncretism:0 "Hellenism sees itself in many religions of the world."
